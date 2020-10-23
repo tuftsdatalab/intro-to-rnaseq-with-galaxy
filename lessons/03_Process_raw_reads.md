@@ -3,7 +3,7 @@
 - Select **FastQC** under **FASTQ Quality Control**
 - In the middle panel, under **Short read data from your current history** select the folder icon and **chang_2011** should appear as an option
 
-<img src="../img/fastqc1.png" width="200">
+<img src="../img/fastqc1.png" width="500">
 
 - Scroll down and click **Execute**.The job should first appear orange and then green after a minute or so.
 - The result will be two lists, one containing the raw data and one the webpage (html) results.
@@ -12,8 +12,7 @@
 
 - Click to expand the list **FastQCon collection 12: Webpage** and click on the **eye icon** next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**.
 
-<details>
-<summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary></details>
+<summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
 
 
 ## Aggregate QC data with **MultiQC**
@@ -28,7 +27,7 @@
 <details>
 <summary><b>Question 3: Using what we learned in lecture, which items show cause for concern?</b></summary>
 <br>
-GC content and Adapters</details>
+Answer: GC content and Adapters</details>
 
 ## Trim adapters and low quality read ends with Trim Galore!
 - In the **Tools** panel search bar, type **Trim Galore!**
