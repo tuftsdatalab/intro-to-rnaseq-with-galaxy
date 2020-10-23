@@ -20,11 +20,11 @@
 - Once the job is complete (green) click the eye icon to view the data. It will first say “Loading” and then an error box will appear “Error reading from name store”. Click **OK** as this is a known galaxy [bug](https://github.com/galaxyproject/tools-iuc/issues/1277)
 - In the **Available Tracks** panel select the HIV and Mock samples from 12 hr, as well as the bed file.
 
-<img src="../img/jbrowse_available_tracks.png" width="400">
+<img src="../img/jbrowse_available_tracks.png" width="300">
 
 - In order to zoom in on gene **EGR1**,click on the search bar to the left of the **Go** button and type **chr5: 138465479..138469303** The bam tracks will show the reads that align to the region for each sample. The color will show whether the read aligns to the + or –strand and grey lines show splice regions where a read spans an intron. The gene track will show 6 features of EGR1, by clicking on them you will be able to see the different feature types (exon, CDS, start_codon, stop_codon).
 
-<img src="../img/jbrowse_egr1.png" width="400">
+<img src="../img/jbrowse_egr1.png" width="600">
 
 <details>
 <summary><b>Question 7: Which samples appear to show higher expression of EGR1, the Mock or HIV?</b></summary>
@@ -57,4 +57,5 @@ Answer: multimapping reads
 </details>
 
 [Next: Differential Expression](06_Diff_expression.md)
+
 [Previous: Read Alignment](04_Read_alignment.md)
