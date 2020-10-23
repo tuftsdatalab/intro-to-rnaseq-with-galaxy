@@ -6,7 +6,7 @@
 - Under **Regular Expression?**, type HIV_12 \* (Note that the last character is an asterisk, which is a wildcard that will match anything. Do not put any extra spaces following the expression). This is a regular expression which will match any file that starts with **HIV_12**
 - Click Apply and the list of files in column A should show three samples:
 
-<img src="../img/HIV_12.png" width="200">
+<img src="../img/HIV_12.png" width="400">
 
 - Click **Rules**, and then **Add/Modify Column Definitions** 
 - Click **Add** Definition, then **List Identifier(s)**, select **A**, click Apply
@@ -14,12 +14,12 @@
 - Click **Execute**
 - Rename the collection by clicking to expand the collection, then clicking on the title, typing **HIV_12** , and pressing enter.
 
-<img src="../img/HIV_12_rename.png" width="400">
+<img src="../img/HIV_12_rename.png" width="300">
 
 - Do the same for Mock 12 hour samples, and modify the regular expression appropriately.
 - The two collections should appear in the history (you may have to refresh history in order to see the names)
 
-<img src="../img/rename_collection.png" width="400">
+<img src="../img/rename_collection.png" width="300">
 
 ## Test for Differential Expression using DESeq2using the datasets we created in step 14.
 - In the **Tools** panel search bar, type **DESeq2** and select **DESeq2** under **RNA-seq**
