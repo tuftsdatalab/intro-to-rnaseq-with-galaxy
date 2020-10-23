@@ -3,7 +3,7 @@
 - Select **FastQC** under **FASTQ Quality Control**
 - In the middle panel, under **Short read data from your current history** select the folder icon and **chang_2011** should appear as an option
 
-<img src="../img/fastqc1.png" width="600">
+<img src="../img/fastqc1.png" width="700">
 
 - Scroll down and click **Execute**.The job should first appear orange and then green after a minute or so.
 - The result will be two lists, one containing the raw data and one the webpage (html) results.
