@@ -6,12 +6,12 @@
 - Under **Select reference genome** select **hg38-with-genes**.
 - The final configuration should look like this: 
 
-<img src="../img/STARconfig.png" width="500">
+<img src="../img/STARconfig.png" width="700">
 
 - Scroll down and click **Execute**
 - The result will be three collections, giving the bam, splice junctions and log files for the alignments
 
-<img src="../img/STARresult.png" width="400">
+<img src="../img/STARresult.png" width="200">
 
 ## Run MultiQC on the STAR log files to check the result of the alignment
 - Follow the steps from the previous run of MultiQC except: 
