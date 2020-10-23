@@ -6,7 +6,7 @@
 - Under **Regular Expression?**, type HIV_12 \* (Note that the last character is an asterisk, which is a wildcard that will match anything. Do not put any extra spaces following the expression). This is a regular expression which will match any file that starts with **HIV_12**
 - Click Apply and the list of files in column A should show three samples:
 
-<img src="../img/HIV_12.png" width="400">
+<img src="../img/HIV_12.png" width="300">
 
 - Click **Rules**, and then **Add/Modify Column Definitions** 
 - Click **Add** Definition, then **List Identifier(s)**, select **A**, click Apply
