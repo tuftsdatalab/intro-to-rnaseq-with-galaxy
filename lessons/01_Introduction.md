@@ -5,6 +5,9 @@ Log in to https://galaxy.cluster.tufts.edu with your Tufts credentials.
 
 Information on Tufts Galaxy can be found [here](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy).
 
+Workflow Overview:
+<img src="../img/workflow.png" width="500">
+
 Our dataset is from the publication:
 
 Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of T Cell Activation and RNA Processing and Regulation of Noncoding RNA Expression in a CD4+T Cell Line.** mBio 2011doi: 10.1128/mBio.00134-11
