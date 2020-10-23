@@ -6,7 +6,8 @@ Log in to https://galaxy.cluster.tufts.edu with your Tufts credentials.
 Information on Tufts Galaxy can be found [here](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy).
 
 Workflow Overview:
-<img src="../img/workflow.png" width="500">
+
+<img src="../img/workflow.png" width="200">
 
 Our dataset is from the publication:
 
