@@ -25,10 +25,10 @@ For support with this workshop or Galaxy, email TTS Research Technology [tts-res
 ## Schedule
 - [Introduction](slides/slides_bioe291.pptx)
 - [Setup](lessons/01_Setup.md)
-- [Quality Control](lessons/02_Process_raw_reads.md)
-- [Alignment](lessons/03_Read_alignment.md)
-- [Alignment Cleanup](lessons/04_Gene_quantification.md)
-- [Variant Calling](lessons/05_Diff_expression.md)
+- [Process Raw Reads](lessons/02_Process_raw_reads.md)
+- [Read Alignment](lessons/03_Read_alignment.md)
+- [Gene quantification](lessons/04_Gene_quantification.md)
+- [Differential Expression](lessons/05_Diff_expression.md)
 
 
 ## Acknowledgement
