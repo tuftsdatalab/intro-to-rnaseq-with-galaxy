@@ -32,7 +32,7 @@
 - Scroll down and click **Execute**
 - **DESeq2** will produce three output files: A normalized counts table, a plots file, and a results file.
 
-<img src="../img/deseq2_output.png" width="400">
+<img src="../img/deseq2_output.png" width="300">
 
 ## View and interpret DESeq2output files
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
