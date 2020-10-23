@@ -14,4 +14,5 @@ The raw reads have been downsampled to 1 million reads per file in order to spee
 The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but there is no mention of how to set it, leave it at the default.There are questions throughout, which serve to guide you through the results and check your understanding.
 
 [Next: Setup](02_Setup.md)
+
 [Previous: Repository Home](../README.md)
