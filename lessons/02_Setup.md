@@ -15,7 +15,7 @@
 You’ll see the collection in your history, you can optionally choose to hide the original files
 
 
-<img src="../img/chang_2011.png" width="300">
+<img src="../img/chang_2011.png" width="200">
 
 ## View Fastq files
 - Click on the list **chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
