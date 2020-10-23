@@ -3,7 +3,7 @@
 - Choose **125:featureCounts on collection 85: Counts**
 - Click **Edit**
 - Click Filter, then **Usinga Regular Expression**
-- Under **Regular Expression?**, type *HIV_12 \*asterisk* (Note that the last character is an asterisk, which is a wildcard that will match anything. Do not put any extra spaces following the expression). This is a regular expression which will match any file that starts with **HIV_12**
+- Under **Regular Expression?**, type HIV_12 ${html`*`} (Note that the last character is an asterisk, which is a wildcard that will match anything. Do not put any extra spaces following the expression). This is a regular expression which will match any file that starts with **HIV_12**
 - Click Apply and the list of files in column A should show three samples:
 
 <img src="../img/HIV_12.png" width="200">
