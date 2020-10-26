@@ -1,6 +1,4 @@
-
-
-## Check raw read quality with FastQC
+## Perform Quality Control on Raw Reads
 
 ### Run FastQC
 
