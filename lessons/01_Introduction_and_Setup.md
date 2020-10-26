@@ -9,6 +9,7 @@ Workflow Overview:
 
 <img src="../img/workflow.png" width="200">
 
+### Dataset
 Our dataset is from the publication:
 
 Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of T Cell Activation and RNA Processing and Regulation of Noncoding RNA Expression in a CD4+T Cell Line.** mBio 2011doi: 10.1128/mBio.00134-11
@@ -16,6 +17,13 @@ Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of 
 The raw reads have been downsampled to 1 million reads per file in order to speed up computation.The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
 The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but there is no mention of how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
+
+### Galaxy UI
+
+The Galaxy User Interface has three panels, Tools, Main, and History:
+
+<img src="../img/ui.png" width="300">
+
 
 ## Create a new history
 - Click the **+** at the top of the history panel
@@ -35,6 +43,7 @@ You’ll see the collection in your history, you can optionally choose to hide t
 
 
 <img src="../img/chang_2011.png" width="200">
+
 
 ## View Fastq files
 - Click on the list **chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
