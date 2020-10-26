@@ -18,8 +18,7 @@ Bioinformatics for RNAseq has the following workflow steps
 
 ## Table of Contents
 - [Slides](slides/slides_bioe291.pdf)
-- [Introduction](lessons/01_Introduction.md)
-- [Setup](lessons/02_Setup.md)
+- [Introduction](lessons/01_Introduction_and_Setup.md)
 - [Process Raw Reads](lessons/03_Process_raw_reads.md)
 - [Read Alignment](lessons/04_Read_alignment.md)
 - [Gene quantification](lessons/05_Gene_quantification.md)
@@ -27,5 +26,5 @@ Bioinformatics for RNAseq has the following workflow steps
 
 
 ## Acknowledgement
-Thank you to bioinformatics intern Meg Farely for help developing this workshop.
+Thanks to bioinformatics intern [Meg Farely](https://www.linkedin.com/in/meg-farley-93b311160/) for help developing this workshop.
 
