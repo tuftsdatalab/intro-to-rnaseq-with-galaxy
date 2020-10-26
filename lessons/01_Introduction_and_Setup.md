@@ -29,7 +29,7 @@ The Galaxy User Interface has three panels, Tools, Main, and History:
 - Click the **+** at the top of the history panel
 - Name the history **rnaseq day 1**
 
-<img src="../img/new_history.png" width="200">
+<img src="../img/new_history.png" width="400">
 
 ## Import the raw data from a shared data library on our server
 - Click **Shared Data** on the top menu bar and select **Data Libraries**
