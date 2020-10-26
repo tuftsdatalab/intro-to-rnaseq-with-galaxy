@@ -1,7 +1,12 @@
+
+
 ## Check raw read quality with FastQC
+
+### Run FastQC
+
 - In the **Tools** panel (left most panel) search bar, type **FastQC**
 - Select **FastQC** under **FASTQ Quality Control**
-- In the middle panel, under **Short read data from your current history** select the <img src="../img/download.png" width="15"> and **chang_2011** should appear as an option
+- In the middle panel, under **Short read data from your current history** select the folder icon <img src="../img/download.png" width="15"> and the dataset **chang_2011** will appear as an option
 
 <img src="../img/fastqc1.png" width="700">
 
@@ -19,7 +24,7 @@ Answer: yes
 </details>
 
 
-## Aggregate QC data with **MultiQC**
+### Aggregate QC data with **MultiQC**
 - In the **Tools** panel search bar, type **MultiQC**
 - Select **MultiQC** under **FASTQ Quality Control**
 - In the middle panel, under **Which tool was used generate logs?** select **FastQC**
@@ -33,15 +38,15 @@ Answer: yes
 <br>
 Answer: GC content and Adapters</details>
 
-## Trim adapters and low quality read ends with Trim Galore!
+### Trim adapters and low quality read ends with Trim Galore!
 - In the **Tools** panel search bar, type **Trim Galore!**
 - Select **Trim Galore!** under **FASTQ Quality Control**
 - Under **Reads in FASTQ format** click the <img src="../img/download.png" width="15"> and select **chang_2011**
 - Scroll down and click **Execute**.
-- The result will be a single collection titled **Trim Galore! on collection 12: trimmed reads**.Next, we’llrerun FastQC in order to see how the trimming performed
+- The result will be a single collection titled **Trim Galore! on collection 12: trimmed reads**. Next, we’ll rerun FastQC in order to see how the trimming performed
 
-## Rerun FastQC and MultiQC
-- Follow the steps in 5 and 6 above, except select the trimmed reads generated in step 7as the input to **FastQC**
+### Rerun FastQC and MultiQC
+- Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
 <summary><b>Question 4: Were any reads completely removed from the samples?</b></summary>
@@ -50,7 +55,7 @@ Answer: no
 </details>
 
 <details>
-<summary><b>Question 5: Is the adapter problem solved?What about the GC content?</b></summary>
+<summary><b>Question 5: Is the adapter problem solved? What about the GC content?</b></summary>
 <br>
 Answer: The adapter problem is solved, but not the GC problem. The HIV 24 hour samples still failed the GC content check. Both Human and HIV are GC-poor genomes (Human reference genome is AT (60%) and GC(40%), much like HIV-1 genomes (strain HXB2: 57% AT, 43%GC)).These could be low quality samples.
 </details>

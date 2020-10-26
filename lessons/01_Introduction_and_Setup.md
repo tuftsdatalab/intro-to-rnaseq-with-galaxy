@@ -25,6 +25,8 @@ The Galaxy User Interface has three panels, Tools, Main, and History:
 <img src="../img/ui.png" width="400">
 
 
+## Setup
+
 ## Create a new history
 - Click the **+** at the top of the history panel
 - To rename the history, click on the box **Unnamed History** and type **rnaseq day 1** 
