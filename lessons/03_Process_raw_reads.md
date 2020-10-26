@@ -1,7 +1,7 @@
 ## Check raw read quality with FastQC
 - In the **Tools** panel (left most panel) search bar, type **FastQC**
 - Select **FastQC** under **FASTQ Quality Control**
-- In the middle panel, under **Short read data from your current history** select the folder icon and **chang_2011** should appear as an option
+- In the middle panel, under **Short read data from your current history** select the <img src="../img/download.png" width="15"> and **chang_2011** should appear as an option
 
 <img src="../img/fastqc1.png" width="700">
 
@@ -36,7 +36,7 @@ Answer: GC content and Adapters</details>
 ## Trim adapters and low quality read ends with Trim Galore!
 - In the **Tools** panel search bar, type **Trim Galore!**
 - Select **Trim Galore!** under **FASTQ Quality Control**
-- Under **Reads in FASTQ format** click the folder icon and select **chang_2011**
+- Under **Reads in FASTQ format** click the <img src="../img/download.png" width="15"> and select **chang_2011**
 - Scroll down and click **Execute**.
 - The result will be a single collection titled **Trim Galore! on collection 12: trimmed reads**.Next, we’llrerun FastQC in order to see how the trimming performed
 
