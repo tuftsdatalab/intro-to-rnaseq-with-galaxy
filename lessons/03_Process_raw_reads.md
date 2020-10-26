@@ -12,20 +12,24 @@
 
 - Click to expand the list **FastQCon collection 12: Webpage** and click on the **eye icon** next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**.
 
+<details>
 <summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
+<br>
+Answer: yes
+</details>
 
 
 ## Aggregate QC data with **MultiQC**
 - In the **Tools** panel search bar, type **MultiQC**
 - Select **MultiQC** under **FASTQ Quality Control**
 - In the middle panel, under **Which tool was used generate logs?** select **FastQC**
-- Under **FastQC output** click the folder icon and select the collection **14: FastQC on collection 12: Raw Data** (note that the numbers14 and 12 are tracking the dataset number in your history and might vary if you have not followed the exact sequence in this document)
+- Under **FastQC output** click the <img src="../img/download.png" width="70"> and select the collection **14: FastQC on collection 12: Raw Data** (note that the numbers 14 and 12 are tracking the dataset number in your history and might vary if you have not followed the exact sequence in this document)
 - Enter the **Report Title** “Raw data QC”
 - Scroll down and click **Execute**.
-- The result will again be two collections.Select the collection titled **MultiQC on data36, data 34, and others:Webpage** and click the eye icon to view.
+- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the eye icon to view.
 
 <details>
-<summary><b>Question 3: Using what we learned in lecture, which items show cause for concern?</b></summary>
+<summary><b>Question 3: Using what we learned in lecture, which metrics show one or more failed samples?</b></summary>
 <br>
 Answer: GC content and Adapters</details>
 
