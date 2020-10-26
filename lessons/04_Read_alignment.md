@@ -18,7 +18,7 @@
 - Follow the steps from the [previous section](03_Process_raw_reads.md) to run MultiQC except: 
 	- Under **Which tool was used generate logs?**  select **STAR**
 	- Under **STAR log output** click the <img src="../img/download.png" width="15"> and select the collection **83: RNA STAR on collection 42:log**
-- After the job finished, view the webpage.
+- After the job finished, click the <img src="../img/download.png" width="15"> to view the webpage.
 
 <details>
 <summary><b>Question 6: RNAseq unique alignment percentages are typically lower than for DNAseq but are expected to be above 75%. Are the percent alignments reasonable for RNAseq?</b></summary>

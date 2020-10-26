@@ -43,7 +43,7 @@ You’ll see the collection in your history, you can optionally choose to hide t
 
 ## View Fastq files
 - Click on the list **chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
-- Click on the **eye icon** on the first sequence file **HIV_12hr_rep1** and look at the fastq reads
+- Click on the **eye icon** <img src="../img/eye.png" width="15"> on the first sequence file **HIV_12hr_rep1** and look at the fastq reads
 
 <details>
 <summary> <b>Question 1: The last line in each sequencing read is the quality score. Different sequencing technologies use different quality score encodings to represent base quality. The table below shows a line of different symbols that can be used in quality scores encodings (black line). The lines of different colors show the range of symbols used in a specific quality encoding. Based on the symbols you see in the quality score line from the fastq read in our dataset, which Illumina quality score encoding appears to be used in our dataset?</b> </summary>
