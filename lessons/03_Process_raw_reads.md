@@ -13,7 +13,7 @@
 
 <img src="../img/fastqc2.png" width="200">
 
-- Click to expand the list **FastQCon collection 12: Webpage** and click on the **eye icon** next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**.
+- Click to expand the list **FastQCon collection 12: Webpage** and click on the **eye icon** <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**.
 
 <details>
 <summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
@@ -29,7 +29,7 @@ Answer: yes
 - Under **FastQC output** click the <img src="../img/download.png" width="15"> and select the collection **14: FastQC on collection 12: Raw Data** (note that the numbers 14 and 12 are tracking the dataset number in your history and might vary if you have not followed the exact sequence in this document)
 - Enter the **Report Title** “Raw data QC”
 - Scroll down and click **Execute**.
-- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the eye icon to view.
+- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the eye <img src="../img/eye.png" width="15"> to view.
 
 <details>
 <summary><b>Question 3: Using what we learned in lecture, which metrics show one or more failed samples?</b></summary>
