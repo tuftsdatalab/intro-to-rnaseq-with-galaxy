@@ -1,9 +1,11 @@
-## In preparation to run DESeq2, create separate collections for thecounts files for Mock 12 hr and HIV 12 hr.
-- In the **Tools** panel search bar, type **Apply Rules to Collection**
+## Run DESeq2 to test for differential expression between Mock and HIV at 12 hr
+
+### In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
+- In the **Tools** panel search bar, type **Apply Rule to Collection**
 - Choose **125:featureCounts on collection 85: Counts**
 - Click **Edit**
-- Click Filter, then **Usinga Regular Expression**
-- Under **Regular Expression?**, type HIV_12 \* (Note that the last character is an asterisk, which is a wildcard that will match anything. Do not put any extra spaces following the expression). This is a regular expression which will match any file that starts with **HIV_12**
+- Click Filter, then **Using a Regular Expression**
+- Under **Regular Expression?**, type HIV_12 (Do not put any extra spaces following the expression). This is a regular expression which will match any file that contains the string **HIV_12**
 - Click Apply and the list of files in column A should show three samples:
 
 <img src="../img/HIV_12.png" width="300">
@@ -21,10 +23,10 @@
 
 <img src="../img/rename_collection.png" width="300">
 
-## Test for Differential Expression using DESeq2using the datasets we created in step 14.
+### Test for Differential Expression using DESeq2using the datasets we created in step 14.
 - In the **Tools** panel search bar, type **DESeq2** and select **DESeq2** under **RNA-seq**
-- Under **1:Factor** , specify the factor name **Condition**
-- Under **1:FactorLevel**, specify the base factor level **Mock**
+- Under **1: Factor** , specify the factor name **Condition**
+- Under **1: FactorLevel**, specify the base factor level **Mock**
 - Under **Counts file(s)** select the folder icon and select the **Mock_12** collection
 - Set the **2: FactorLevel** to **HIV**
 - Under **Counts file(s)** select the folder icon and select the **HIV_12** collection
@@ -34,7 +36,7 @@
 
 <img src="../img/deseq2_output.png" width="300">
 
-## View and interpret DESeq2output files
+### View and interpret DESeq2 output files
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
