@@ -45,7 +45,7 @@
 Answer: MYC, EGR1
 </details>
 
-- Plots: View the plots by clicking on the history item **DESeq2 plotson data ... and others** and clicking the eye icon.
+- Plots: View the plots by clicking on the history item **DESeq2 plots on data ... and others** and clicking the eye icon.
 
 <details>
 <summary><b> Question 11: What observations can you make from the PCA plot?</b></summary>
@@ -54,9 +54,10 @@ Answer: Mock samples cluster together more tightly than the HIV. HIV_12hr_rep2 i
 </details>
 
 <details>
-<summary><b> Question 12: What observation can you makeabout the pvalue distribution, does it look like there are many true significant results?</b></summary>
+<summary><b> Question 12: What observation can you make about the pvalue distribution, does it look like there are many true significant results?</b></summary>
 <br>
 Answer: It looks more or less uniform, signaling that we do not have many true positive results. This is expected, however, since the reads have been downsampled. The p-value distribution for the full dataset is shown in lecture.
 </details>
+
 
 [Previous: Gene quantification](05_Gene_quantification.md)
