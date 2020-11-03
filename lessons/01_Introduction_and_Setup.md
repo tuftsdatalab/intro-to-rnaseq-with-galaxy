@@ -19,7 +19,7 @@ The following steps will walk you through how to run the tools. In each step cer
 
 ### Galaxy UI
 
-The Galaxy User Interface has three panels, Tools, Main, and History:
+The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and History.
 
 <img src="../img/ui1.png" width="700">
 
