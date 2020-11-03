@@ -13,7 +13,7 @@ HIV infects CD4+ T cells, the same cells which are critical to mounting an immun
 
 [Image Source](https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/1596/life-cycle)
 
-The raw reads have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
+The raw reads from the study have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
 The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
 
