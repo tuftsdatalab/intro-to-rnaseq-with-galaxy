@@ -42,22 +42,24 @@
 <details>
 <summary><b> Question 10: What are the top two most significant genes </b></summary>
 <br>
-Answer: MYC, EGR1
 </details>
 
 - Plots: View the plots by clicking on the history item **DESeq2 plots on data ... and others** and clicking the eye icon.
 
 <details>
-<summary><b> Question 11: What observations can you make from the PCA plot?</b></summary>
+<summary><b> Question 11: What observations can you make from the PCA plot? Do samples cluster as expected?</b></summary>
 <br>
-Answer: Mock samples cluster together more tightly than the HIV. HIV_12hr_rep2 is more distant from the other HIV samples.
 </details>
+
+The p-value plot shows a histogram of p-values for all the genes that were examined. P-values give the probability of getting a logFC as extreme as observed if the true logFC = 0 for that gene (null hypothesis).  Random P-values are expected to be uniform, if you have true positives you should see a peak close to zero.
+
+<img src="../img/pval.png" width="300">  
+
+[Image Source](http://varianceexplained.org/statistics/interpreting-pvalue-histogram/)
 
 <details>
-<summary><b> Question 12: What observation can you make about the pvalue distribution, does it look like there are many true significant results?</b></summary>
+<summary><b> Question 12: What observation can you make about the pvalue distribution, does it look like there are many true significant results? Note that the published dataset has been downsampled for instructional purposes. </b></summary>
 <br>
-Answer: It looks more or less uniform, signaling that we do not have many true positive results. This is expected, however, since the reads have been downsampled. The p-value distribution for the full dataset is shown in lecture.
 </details>
-
 
 [Previous: Gene quantification](04_Gene_quantification.md)

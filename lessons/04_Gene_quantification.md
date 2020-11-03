@@ -30,13 +30,11 @@
 <details>
 <summary><b>Question 7: Which samples appear to show higher expression of EGR1, the Mock or HIV?</b></summary>
 <br>
-Answer: HIV
 </details>
 
 <details>
 <summary><b> Question 8: How many exons does this gene have?</b></summary>
 <br>
-Answer: two
 </details>
 
 ## Count the reads for each gene using featureCounts
@@ -54,7 +52,6 @@ Answer: two
 <details>
 <summary><b> Question 9: The main output of the featureCounts MultiQC plots is the second plot, which shows whether reads were assigned to genes (features) or not. What is the main reason for reads not being assigned to features?</b></summary>
 <br>
-Answer: multimapping reads
 </details>
 
 [Next: Differential Expression](05_Diff_expression.md)
