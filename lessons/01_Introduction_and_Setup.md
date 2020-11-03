@@ -7,9 +7,9 @@ Our dataset is from the publication:
 
 Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of T Cell Activation and RNA Processing and Regulation of Noncoding RNA Expression in a CD4+T Cell Line.** mBio 2011doi: 10.1128/mBio.00134-11
 
-HIV infects CD4+ T cells, the same cells which are critical to mounting an immune response to the virus infection.
+HIV infects CD4+ T cells, the same cells which are critical to mounting an immune response to the virus infection.  
 
-<img src="../img/hiv-lifecycle.png" width=500">  
+<img src="../img/hiv-lifecycle.png" width=500"> 
 
 [Image Source](https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/1596/life-cycle)
 
