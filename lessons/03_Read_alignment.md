@@ -21,11 +21,10 @@
 - After the job finished, click the <img src="../img/download.png" width="15"> to view the webpage.
 
 <details>
-<summary><b>Question 6: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, but are expected to be above 75%. Are the percent alignments reasonable for RNAseq?</b></summary>
+<summary><b>Question 6: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, but are expected to be above 75%. Are the percent alignments reasonable for RNAseq? You can optionally check to see which percentage of the reads align to the HIV genome by re-running STAR using the HIV genome with built-in gene model hiv_nc001802 </b></summary>
 <br>
-Answer: The HIV samples don’t pass this threshold. This could be because of increasing levels of HIV replication in the cells, which are taking up sequencing reads but will not align to the human genome. You can optionally check this by aligning to the HIV genome with built-in gene model hiv_nc001802.
 </details> 
 
-[Next: Gene Quantification](05_Gene_quantification.md)
+[Next: Gene Quantification](04_Gene_quantification.md)
 
-[Previous: Process Raw Reads](03_Process_raw_reads.md)
+[Previous: Process Raw Reads](02_Process_raw_reads.md)

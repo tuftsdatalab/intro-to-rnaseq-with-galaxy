@@ -57,6 +57,6 @@ Answer: two
 Answer: multimapping reads
 </details>
 
-[Next: Differential Expression](06_Diff_expression.md)
+[Next: Differential Expression](05_Diff_expression.md)
 
-[Previous: Read Alignment](04_Read_alignment.md)
+[Previous: Read Alignment](03_Read_alignment.md)
