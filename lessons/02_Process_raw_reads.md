@@ -28,12 +28,12 @@
 - Under **FastQC output** click the <img src="../img/download.png" width="15"> and select the collection **14: FastQC on collection 12: Raw Data** (note that the numbers 14 and 12 are tracking the dataset number in your history and might vary if you have not followed the exact sequence in this document)
 - Enter the **Report Title** “Raw data QC”
 - Scroll down and click **Execute**.
-- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view.
+- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view. (If panels show "loading" for more than a few seconds, click the <img src="../img/eye.png" width="15"> a second time to refresh)
 
 <details>
 <summary><b>Question 3: Using what we learned in lecture, which metrics show one or more failed samples?</b></summary>
 <br>
-Answer: GC content and Adapters</details>
+</details>
 
 ### Trim adapters and low quality read ends with Trim Galore!
 - In the **Tools** panel search bar, type **Trim Galore!**
@@ -48,16 +48,14 @@ Answer: GC content and Adapters</details>
 <details>
 <summary><b>Question 4: Were any reads completely removed from the samples?</b></summary>
 <br>
-Answer: no
 </details>
 
 <details>
-<summary><b>Question 5: Is the adapter problem solved? What about the GC content?</b></summary>
+<summary><b>Question 5: Is the adapter problem solved? What about the GC content? Note that HIV replication is ramping up rapidly in these cells in the first 24 hours.</b></summary>
 <br>
-Answer: The adapter problem is solved, but not the GC problem. The HIV 24 hour samples still failed the GC content check. Both Human and HIV are GC-poor genomes (Human reference genome is AT (60%) and GC(40%), much like HIV-1 genomes (strain HXB2: 57% AT, 43%GC)).These could be low quality samples.
 </details>
 
 
-[Next: Read Alignment](04_Read_alignment.md)
+[Next: Read Alignment](03_Read_alignment.md)
 
 [Previous: Setup](02_Setup.md)
