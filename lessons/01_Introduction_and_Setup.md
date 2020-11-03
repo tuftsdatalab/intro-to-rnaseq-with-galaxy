@@ -13,6 +13,10 @@ HIV infects CD4+ T cells, the same cells which are critical to mounting an immun
 
 [Image Source](https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/1596/life-cycle)
 
+The experiment aims to compare the mRNA produced by Mock and HIV infected CD4+ T cells, both 12 hr and 24 hr after infection.
+
+<img src="../img/hiv-mock.png" width=300> 
+
 The raw reads from the study have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
 The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
@@ -28,21 +32,21 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 
 ## Create a new history
 - Click the **+** at the top of the history panel
-- To rename the history, click on the box **Unnamed History** and type **rnaseq** and press enter
+- To rename the history, click on the box **Unnamed History** and type **rnaseq day 1** and press enter
 
 <img src="../img/new_history.png" width="200">
 
 ## Import the raw data from a shared data library on our server
-- Click **Shared Data** on the top menu bar and select **Data Libraries**
+- On the top menu bar, click **Shared Data** and select **Data Libraries**
 - Select **chang_2011**
-- Click **Export to History** next to the Search bar and select **As a Collection**
-- Click **Continue** to add all files as a list to our current history 
+- Just under the top menu bar, next to the search bar, click **Export to History** and select **As a Collection**.
+- You'll see a list of fastq files from HIV and Mock infected cells
+- Click **Continue** to add all files as a list to our current history (No need to click on individual files)
 - Name the collection **chang_2011**
 - Click **Create list**
-- To go back to the homepage, click on **Galaxy Tufts** on the top left.
+- Click on **Galaxy Tufts** on the top left to go back to the main panel.
 
-You’ll see the collection in your history, you can optionally choose to hide the original files
-
+You’ll see the collection in your history. All files are together 
 
 <img src="../img/chang_2011.png" width="200">
 
