@@ -17,11 +17,12 @@ Bioinformatics for RNAseq has the following workflow steps
 - [VPN](https://access.tufts.edu/vpn) if accessing the HPC from off campus
 
 ## Table of Contents
+- [Introduction Slides](slides/slides_bioe291.pdf)
 - [Next: Introduction and Setup](lessons/01_Introduction_and_Setup.md)
-- [Process Raw Reads](lessons/03_Process_raw_reads.md)
-- [Read Alignment](lessons/04_Read_alignment.md)
-- [Gene quantification](lessons/05_Gene_quantification.md)
-- [Differential Expression](lessons/06_Diff_expression.md)
+- [Process Raw Reads](lessons/02_Process_raw_reads.md)
+- [Read Alignment](lessons/03_Read_alignment.md)
+- [Gene quantification](lessons/04_Gene_quantification.md)
+- [Differential Expression](lessons/05_Diff_expression.md)
 
 
 ## Acknowledgement

@@ -2,9 +2,9 @@
 
 ### Run FastQC
 
-- In the **Tools** panel (left most panel) search bar, type **FastQC**
+- In the **Tools** panel search bar, type **FastQC**
 - Select **FastQC** under **FASTQ Quality Control**
-- In the middle panel, under **Short read data from your current history** select the folder icon <img src="../img/download.png" width="15"> and the dataset **chang_2011** will appear as an option
+- In the **Main** panel, under **Short read data from your current history** select the folder icon <img src="../img/download.png" width="15"> and the dataset **chang_2011** will appear as an option
 
 <img src="../img/fastqc1.png" width="700">
 
@@ -13,12 +13,11 @@
 
 <img src="../img/fastqc2.png" width="200">
 
-- Click to expand the list **FastQCon collection 12: Webpage** and click on the <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**.
+- Click to expand the second list **FastQC on collection 12: Webpage** and click on the <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**. The Main panel will show metrics and plots. You may have to adjust the size of the panel in order to view.
 
 <details>
 <summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
 <br>
-Answer: yes
 </details>
 
 
