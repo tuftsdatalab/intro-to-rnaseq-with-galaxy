@@ -53,7 +53,7 @@
 
 The p-value plot shows a histogram of p-values for all the genes that were examined. P-values give the probability of getting a logFC as extreme as observed if the true logFC = 0 for that gene (null hypothesis).  Random P-values are expected to be uniform, if you have true positives you should see a peak close to zero.
 
-<img src="../img/pval.png" width="300">  
+<img src="../img/pval.png" width="700">  
 
 [Image Source](http://varianceexplained.org/statistics/interpreting-pvalue-histogram/)
 
