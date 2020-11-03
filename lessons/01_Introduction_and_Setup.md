@@ -9,7 +9,7 @@ Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of 
 
 HIV infects CD4+ T cells, the same cells which are critical to mounting an immune response to the virus infection.  
 
-<img src="../img/hiv-lifecycle.png" width=500"> 
+<img src="../img/hiv-lifecycle.png" width=500> 
 
 [Image Source](https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/1596/life-cycle)
 
