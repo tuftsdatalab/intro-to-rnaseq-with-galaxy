@@ -63,5 +63,5 @@ You’ll see the collection (or list) **chang_2011** in your history.
 
 [Next: Process Raw Reads](02_Process_raw_reads.md)
 
-[Previous: Repository Home](./README.md)
+[Previous: Repository Home](../README.md)
 
