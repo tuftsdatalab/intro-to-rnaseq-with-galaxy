@@ -13,7 +13,7 @@
 
 <img src="../img/fastqc2.png" width="200">
 
-- Click to expand the second list **FastQC on collection 12: Webpage** and click on the <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**.Read the table for **Basic Statistics**. The Main panel will show metrics and plots. You may have to adjust the size of the panel in order to view.
+- Click to expand the second list **FastQC on collection 12: Webpage** and click on the <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**. The first table gives **Basic Statistics** of the sample. The Main panel will show metrics and plots. You may have to adjust the size of the panel in order to view.
 
 <details>
 <summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
@@ -46,7 +46,7 @@
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
-<summary><b>Question 4: Were any reads completely removed from the samples?</b></summary>
+<summary><b>Question 4: Were any reads completely removed from the samples? Note: The MultiQC "General Statistics" table may show a rounded value, so be sure to double check with the individual sample FastQC tables. </b></summary>
 <br>
 </details>
 
