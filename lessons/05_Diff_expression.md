@@ -25,11 +25,17 @@
 
 ### Test for Differential Expression using DESeq2using the datasets we created in step 14.
 - In the **Tools** panel search bar, type **DESeq2** and select **DESeq2** under **RNA-seq**
+
+DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock. 
+The term that DESeq2 uses for this condition is "factor" and we will have to choose factor levels for our comparison.
+Importantly, "the first factor you input is considered as the primary factor that affects gene expressions." 
+In our case, this will be condition HIV.
+
 - Under **1: Factor** , specify the factor name **Condition**
-- Under **1: FactorLevel**, specify the base factor level **Mock**
-- Under **Counts file(s)** select the folder icon and select the **Mock_12** collection
-- Set the **2: FactorLevel** to **HIV**
+- Under **1: FactorLevel**, specify the base factor level **HIV**
 - Under **Counts file(s)** select the folder icon and select the **HIV_12** collection
+- Set the **2: FactorLevel** to **Mock**
+- Under **Counts file(s)** select the folder icon and select the **Mock_12** collection
 - Set **Output normalized counts table** to **Yes**
 - Scroll down and click **Execute**
 - **DESeq2** will produce three output files: A normalized counts table, a plots file, and a results file.
@@ -40,7 +46,7 @@
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
-<summary><b> Question 10: What are the top two most significant genes </b></summary>
+<summary><b> Question 10: What are the top two most significant genes? Does the direction of change for gene EGR1 agree with our observation in Question 7? </b></summary>
 <br>
 </details>
 
