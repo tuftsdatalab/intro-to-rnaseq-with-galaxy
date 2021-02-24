@@ -28,8 +28,10 @@
 
 DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock. 
 The term that DESeq2 uses for this condition is "factor" and we will have to choose factor levels for our comparison.
-Importantly, "the first factor you input is considered as the primary factor that affects gene expressions." 
-In our case, this will be condition HIV.
+Importantly, we have to choose the order of our factor levels to know how to interpret the log2 fold changes that are calculated.
+The DESeq2 Galaxy page stated: "Output log2 fold changes are based on primary factor level 1 vs. factor level2."
+Therefore, since we wish to test for changes in HIV vs. Mock infected cells, we'll choose HIV as factor level 1 and Mock as factor level 2.
+Any resulting upregulated genes, with log2 fold change > 0, can then be interpreted as being upregulated in HIV with respect to Mock.
 
 - Under **1: Factor** , specify the factor name **Condition**
 - Under **1: FactorLevel**, specify the base factor level **HIV**
