@@ -27,7 +27,28 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 
 <img src="../img/ui1.png" width="700">
 
-## Key Galaxy actions
+## Key Galaxy actions (cite galaxy training materials here)
+
+### 1.Naming your current history
+1. Go to the **History** panel (on the right)
+2. Click on the history name (which by default is “Unnamed history”)
+
+<img src="../img/rename_history.png" width="200">
+
+3. Type in a new name, for example, “My-Analysis”
+4. Press **Enter** on your keyboard to save it
+
+### 2.Upload a file
+1. At the top of the **Tools** panel (on the left), click **galaxy-upload** Upload
+
+<img src="../img/upload-data.png" width="200">
+
+This brings up a box:
+
+
+<img src="../img/upload-box.png" width="500">
+
+
 
 ## Setup
 
