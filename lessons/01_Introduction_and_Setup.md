@@ -41,7 +41,7 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 ### 2. Upload a file
 1. At the top of the **Tools** panel (on the left), click **galaxy-upload** Upload
 
-<img src="../img/upload-data.png" width="300">
+<img src="../img/upload-data2.png" width="300">
 
 This brings up a box:
 
