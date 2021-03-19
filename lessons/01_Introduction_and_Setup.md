@@ -27,6 +27,7 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 
 <img src="../img/ui1.png" width="700">
 
+## Key Galaxy actions
 
 ## Setup
 
