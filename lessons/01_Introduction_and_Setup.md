@@ -27,13 +27,13 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 
 <img src="../img/ui1.png" width="700">
 
-## Key Galaxy actions (cite galaxy training materials here)
+## Key Galaxy actions to be familiar with (cite galaxy training materials here)
 
 ### 1. Naming your current history
 1. Go to the **History** panel (on the right)
 2. Click on the history name (which by default is “Unnamed history”)
 
-	<img src="../img/rename_history.png" width="200">
+<img src="../img/rename_history.png" width="200">
 
 3. Type in a new name, for example, “My-Analysis”
 4. Press **Enter** on your keyboard to save it
@@ -41,14 +41,28 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 ### 2. Upload a file
 1. At the top of the **Tools** panel (on the left), click **galaxy-upload** Upload
 
-<img src="../img/upload-data2.png" width="300">
+<img src="../img/upload-data2.png" width="200">
 
 This brings up a box:
 
 
 <img src="../img/upload-box.png" width="500">
 
+2. Click **Paste/Fetch data**. Files can also be uploaded from your local machine or through the Tufts Cluster using the FTP option.
+3. Paste in the address of a file: https://zenodo.org/record/582600/files/mutant_R1.fastq
+4. Click **Start**
+5. Click **Close**
+6. Your uploaded file is now in your current history. When the file has uploaded to Galaxy, it will turn green.
 
+### 3. Viewing your data
+1. Click on the eye icon next to the dataset name, to look at the file content
+
+<img src="../img/eye-icon.png" width="400">
+
+The contents of the file will be displayed in the central Galaxy panel.
+This file contains DNA sequencing reads from a bacteria, in FASTQ format:
+
+<img src="../img/fastq.png" width="500">
 
 ## Setup
 
@@ -94,4 +108,3 @@ IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 [Next: Process Raw Reads](02_Process_raw_reads.md)
 
 [Previous: Repository Home](../README.md)
-
