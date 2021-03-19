@@ -57,13 +57,34 @@ This brings up a box:
 ### 3. Viewing your data
 1. Click on the eye icon next to the dataset name, to look at the file content
 
-<img src="../img/eye-icon.png" width="400">
+<img src="../img/eye-icon.png" width="200">
 
 The contents of the file will be displayed in the central Galaxy panel.
 This file contains DNA sequencing reads from a bacteria, in FASTQ format:
 
 <img src="../img/fastq.png" width="500">
 
+### 4. Use a tool
+1. Type **FastQC** in the tools panel search box (top) 
+2. Click on the **Fastqc** tool
+	The tool will be displayed in the central Galaxy panel.
+3. Select the following parameters:
+	- “Short read data from your current history”: the FASTQ dataset that we uploaded
+	- No change in the other parameters
+4. Click **Execute**
+
+This tool will run and two new output datasets will appear at the top of your history panel.
+### 5. View results
+We will look at the output dataset called *FastQC on data 1: Webpage*.
+
+1. Click on the eye icon next to the “Webpage” output dataset.
+The information is displayed in the central panel
+
+<img src="../img/fastqc-out.png" width="500">
+
+This tool has summarised information about all of the reads in our FASTQ file.
+
+# Intro to RNA-Seq using Galaxy on the Tufts cluster
 ## Setup
 
 ## Create a new history
