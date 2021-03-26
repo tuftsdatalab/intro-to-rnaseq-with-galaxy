@@ -66,4 +66,5 @@ The information is displayed in the central panel
 This tool has summarised information about all of the reads in our FASTQ file.
 
 [Next: Setup](01_Introduction_and_Setup.md)
+
 [Previous: Repository Home](../README.md)

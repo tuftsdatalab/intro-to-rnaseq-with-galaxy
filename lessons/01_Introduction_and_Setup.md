@@ -128,4 +128,4 @@ IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 
 [Next: Process Raw Reads](02_Process_raw_reads.md)
 
-[Previous: Repository Home](../README.md)
+[Previous: Introduction to Galaxy](00_Galaxy_setup.md)
