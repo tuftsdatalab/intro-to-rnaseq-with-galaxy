@@ -1,4 +1,6 @@
-The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
+## Introduction to Galaxy
+
+We will spend some time getting familiar with the Galaxy interface and layout and key functions that can be performed using Galaxy. We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
 
 ### Galaxy UI
 
@@ -62,3 +64,6 @@ The information is displayed in the central panel
 <img src="../img/fastqc-out.png" width="500">
 
 This tool has summarised information about all of the reads in our FASTQ file.
+
+[Next: Setup](01_Introduction_and_Setup.md)
+[Previous: Repository Home](../README.md)
