@@ -1,12 +1,41 @@
 ## Introduction to Galaxy
 
-We will spend some time getting familiar with the Galaxy interface and layout and key functions that can be performed using Galaxy. We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
+We will spend some time getting familiar with the Galaxy interface,layout, and key functions that can be performed using Galaxy. We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
 
 ### Galaxy UI
 
 The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and History.
 
 <img src="../img/ui1.png" width="700">
+
+You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below.
+
+<img src="../img/viewhistory.png" width="700">
+
+
+Here you can view all your histories, switch to another history, and drag and drop data between histories.
+
+<img src="../img/histories.png" width="700">
+
+
+Galaxy has a few ways to upload data. The most common ways are to upload data from local storage or from the Cluster.
+
+<img src="../img/upload.png" width="700">
+<img src="../img/upload2.png" width="700">
+
+
+When it comes time to use a tool, either search or click the category the tool you need would fall under.
+
+<img src="../img/tools.png" width="700">
+
+
+Click the name of the tool you would like to use and it's customizable parameters will appear in the center area.
+
+<img src="../img/featurecounts.png" width="700">
+
+You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines across from them  in the bottom left and right corners of the page.
+
+<img src="../img/bottomsarrows.png" width="700">
 
 ## Key Galaxy actions to be familiar with (cite galaxy training materials here)
 
