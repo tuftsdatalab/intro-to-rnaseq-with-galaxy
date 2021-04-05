@@ -33,7 +33,7 @@ Click the name of the tool you would like to use and it's customizable parameter
 
 <img src="../img/featurecounts.png" width="700">
 
-You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines across from them  in the bottom left and right corners of the page.
+You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page.
 
 <img src="../img/bottomarrows.png" width="700">
 
