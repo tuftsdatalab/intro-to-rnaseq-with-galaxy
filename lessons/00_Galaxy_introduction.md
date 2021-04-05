@@ -35,7 +35,7 @@ Click the name of the tool you would like to use and it's customizable parameter
 
 You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines across from them  in the bottom left and right corners of the page.
 
-<img src="../img/bottomsarrows.png" width="700">
+<img src="../img/bottomarrows.png" width="700">
 
 ## Key Galaxy actions to be familiar with (cite galaxy training materials here)
 
