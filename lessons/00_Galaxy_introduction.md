@@ -33,11 +33,12 @@ Click the name of the tool you would like to use and it's customizable parameter
 
 <img src="../img/featurecounts.png" width="700">
 
-You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page.
-
+You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page. To get back to the home page click the logo next to **Galaxy Tufts** on the top left of the page or the **Analyze Data** tab on the top of the page. 
 <img src="../img/bottomarrows.png" width="700">
 
 ## Key Galaxy actions to be familiar with (cite galaxy training materials here)
+
+For these activities we will be using a single file from the larger dataset that we will use later on in the workshop.
 
 ### 1. Naming your current history
 1. Go to the **History** panel (on the right)
