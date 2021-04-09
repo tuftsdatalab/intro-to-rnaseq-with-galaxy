@@ -92,7 +92,7 @@ We will look at the output dataset called *FastQC on data 1: Webpage*.
 1. Click on the eye icon next to the “Webpage” output dataset.
 The information is displayed in the central panel
 
-<img src="../img/fastqc-out.png" width="500">
+<img src="../img/fastqc_out.png" width="500">
 
 This tool has summarised information about all of the reads in our FASTQ file.
 
