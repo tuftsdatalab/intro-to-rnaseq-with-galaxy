@@ -72,9 +72,9 @@ This brings up a box:
 <img src="../img/eye-icon.png" width="200">
 
 The contents of the file will be displayed in the central Galaxy panel.
-This file contains DNA sequencing reads from a bacteria, in FASTQ format:
+This file contains DNA sequencing reads from HIV infects CD4+ T cells, in FASTQ format:
 
-<img src="../img/fastq.png" width="500">
+<img src="../img/HIV_12hr_rep1_pass_subsample.fastq.gz.png" width="500">
 
 ### 4. Use a tool
 1. Type **FastQC** in the tools panel search box (top)
