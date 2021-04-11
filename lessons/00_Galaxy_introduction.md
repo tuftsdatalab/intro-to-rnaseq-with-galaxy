@@ -1,13 +1,14 @@
-## Introduction to Galaxy
+# Introduction to Galaxy
 
 We will spend some time getting familiar with the Galaxy interface,layout, and key functions that can be performed using Galaxy. We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
 
-### Galaxy UI
+## Galaxy UI
 
 The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and History.
 
 <img src="../img/ui1.png" width="700">
 
+### 1. Histories
 You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below.
 
 <img src="../img/viewhistory.png" width="700">
@@ -17,7 +18,7 @@ Here you can view all your histories, switch to another history, and drag and dr
 
 <img src="../img/histories.png" width="700">
 
-
+### 2. Tools
 Galaxy has a few ways to upload data. The most common ways are to upload data from local storage or from the Cluster.
 
 <img src="../img/upload.png" width="700">
@@ -32,7 +33,7 @@ When it comes time to use a tool, either search or click the category the tool y
 Click the name of the tool you would like to use and it's customizable parameters will appear in the center area.
 
 <img src="../img/featurecounts.png" width="700">
-
+### 3. Page logistics
 You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page. To get back to the home page click the logo next to **Galaxy Tufts** on the top left of the page or the **Analyze Data** tab on the top of the page. 
 
 <img src="../img/bottomarrows.png" width="700">
@@ -61,7 +62,7 @@ This brings up a box:
 <img src="../img/upload-box.png" width="500">
 
 2. Click **Paste/Fetch data**. Files can also be uploaded from your local machine or through the Tufts Cluster using the FTP option.
-3. Paste in the address of a file: https://zenodo.org/record/582600/files/mutant_R1.fastq
+3. Paste in the address of a file: https://zenodo.org/record/4666785/files/HIV_12hr_rep1_pass_subsample.fastq.gz.fastqsanger?download=1
 4. Click **Start**
 5. Click **Close**
 6. Your uploaded file is now in your current history. When the file has uploaded to Galaxy, it will turn green.
