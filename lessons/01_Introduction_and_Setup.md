@@ -1,8 +1,9 @@
-## Introduction
+# Intro to RNA-Seq using Galaxy on the Tufts cluster
+
 
 The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of RNAseqencing technologies and our workflow.
 
-### Dataset
+## Dataset
 Our dataset is from the publication:
 
 Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of T Cell Activation and RNA Processing and Regulation of Noncoding RNA Expression in a CD4+T Cell Line.** mBio 2011doi: 10.1128/mBio.00134-11
@@ -15,14 +16,12 @@ HIV infects CD4+ T cells, the same cells which are critical to mounting an immun
 
 The experiment aims to compare the mRNA produced by Mock and HIV infected CD4+ T cells, both 12 hr and 24 hr after infection.
 
-<img src="../img/hiv-mock.png" width=300> 
+<img src="../img/hiv-mock.png" width=250> 
 
 The raw reads from the study have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
 The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
 
-# Intro to RNA-Seq using Galaxy on the Tufts cluster
-## Setup
 
 ## Create a new history
 - Click the **+** at the top of the history panel
