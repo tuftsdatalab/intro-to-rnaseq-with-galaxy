@@ -35,7 +35,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - STAR uses a Gene Transfer Format (GTF) file for gene annotation 
 
 
-<img src="../img/gtf_format.jpeg" width="800">
+<img src="../img/gtf_format.png" width="900">
 
 
 ## Import a gene annotation file from a Data Library to be used for feature counting
