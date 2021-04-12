@@ -55,7 +55,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 <img src="../img/tools.png" width="700">
 
 
-Click the name of the tool you would like to use and it's customizable parameters will appear in the center area.
+- Click the name of the tool you would like to use and the tool menu will appear in the Main panel
 
 <img src="../img/featurecounts.png" width="700">
 
