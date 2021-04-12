@@ -17,7 +17,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 <img src="../img/fastqc1.png" width="700">
 
 - Scroll down and click **Execute**.The job should first appear orange and then green after a minute or so.
-- The result will be two lists, one containing the raw data and one the webpage (html) results.
+- The result will be two lists, one containing the raw data and one the webpage (html) results for convenient viewing in the browser.
 
 <img src="../img/fastqc2.png" width="200">
 
@@ -33,6 +33,11 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 
 
 ### Aggregate QC data with **MultiQC**
+
+The tool **MultiQC** allows us to view our QC results from all samples side by sides, in order to check for consistency across replicates.
+It can use the **Raw Data** output from FastQC and generate plots for all modules
+
+Steps to run:
 - In the **Tools** panel search bar, type **MultiQC**
 - Select **MultiQC** under **FASTQ Quality Control**
 - In the middle panel, under **Which tool was used generate logs?** select **FastQC**
