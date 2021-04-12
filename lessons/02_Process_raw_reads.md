@@ -46,6 +46,7 @@ Steps to run:
 - Scroll down and click **Execute**.
 - The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view. (If panels show "loading" for more than a few seconds, click the <img src="../img/eye.png" width="15"> a second time to refresh)
 
+
 <img src="../img/multiqc_result_1.png" width="900">
 
 
