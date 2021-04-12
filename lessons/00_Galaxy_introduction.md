@@ -9,6 +9,7 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 <img src="../img/ui1.png" width="700">
 
 ### 1. Histories
+
 You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below.
 
 <img src="../img/viewhistory.png" width="700">
@@ -19,6 +20,7 @@ Here you can view all your histories, switch to another history, and drag and dr
 <img src="../img/histories.png" width="700">
 
 ### 2. Tools
+
 Galaxy has a few ways to upload data. The most common ways are to upload data from local storage or from the Cluster.
 
 <img src="../img/upload.png" width="700">
@@ -33,12 +35,14 @@ When it comes time to use a tool, either search or click the category the tool y
 Click the name of the tool you would like to use and it's customizable parameters will appear in the center area.
 
 <img src="../img/featurecounts.png" width="700">
+
 ### 3. Page logistics
+
 You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page. To get back to the home page click the logo next to **Galaxy Tufts** on the top left of the page or the **Analyze Data** tab on the top of the page. 
 
 <img src="../img/bottomarrows.png" width="700">
 
-## Key Galaxy actions to be familiar with (cite galaxy training materials here)
+## Key Galaxy actions to be familiar with (Anna Syme, 2021 [A short introduction to Galaxy (Galaxy Training Materials)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial))
 
 For these activities we will be using a single file from the larger dataset that we will use later on in the workshop.
 
