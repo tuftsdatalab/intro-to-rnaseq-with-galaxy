@@ -12,12 +12,13 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 - In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers
 - More information on getting access to Tufts Galaxy can be found on the [Research Technology website](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy)
 
+
 <img src="../img/galaxy_hpc.png" width="700">
 
 
 ## Galaxy UI
 
-- We'll spend some time getting familiar with the Galaxy interface, layout, and key functions that can be performed using Galaxy 
+- We'll spend some time getting familiar with the Galaxy interface, layout, and key functions
 - The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and History
 
 <img src="../img/ui1.png" width="700">
@@ -46,9 +47,10 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 <img src="../img/upload2.png" width="700">
 
 
-### Uploading Data
+### Tools
 
-When it comes time to use a tool, either search or click the category the tool you need would fall under.
+- On the Tools panel, either search by name or click the category that your tool would fall under
+- Our tools for today will mostly be stored under the RNA-seq category
 
 <img src="../img/tools.png" width="700">
 
