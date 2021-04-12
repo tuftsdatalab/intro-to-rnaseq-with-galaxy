@@ -12,6 +12,26 @@ FastQC provides several modules:
 
 <img src="../img/fastqc_slide_1.png" width="900">
 
+### Per Sequence GC content
+
+GC-content (or guanine-cytosine content) is the percentage of bases in a DNA or RNA molecule that are either G or C out of an implied four total bases.
+
+
+<img src="../img/fastqc_slide_2.png" width="900">
+
+
+### Per Base Sequence Content
+
+<img src="../img/fastqc_slide_3.png" width="900">
+
+### Adapter content
+
+- FastQC will scan each read for the presence of known adapter sequences
+- The plot shows that the adapter content rises over the course of the read.
+- Solution: Adapter Trimming!
+
+<img src="../img/fastqc_slide_4.png" width="900">
+
 
 ### Run FastQC
 
