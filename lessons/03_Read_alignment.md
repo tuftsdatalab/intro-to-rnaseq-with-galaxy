@@ -50,7 +50,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - In the **Tools** panel search bar, type **STAR**
 - Scroll down and select **RNA STAR** under **RNA-seq**
 - Under **RNA-Seq FASTQ/FASTA file** click the <img src="../img/download.png" width="15"> and select the trimmed reads **42: Trim Galore! on collection 12: trimmed reads**
-- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that includes the splice junctions. Under **Reference genome with or without an annotation** select **use genome reference with built-in gene-model**.
+- **STAR** gives us the option of using a genome that includes a database of known splice junction locations or providing a gtf file so that STAR can create the database. We’ll select a reference genome on our server that already includes the splice junctions listed in our GTF file. Under **Reference genome with or without an annotation** select **use genome reference with built-in gene-model**.
 - Under **Select reference genome** select **hg38-with-genes**.
 - The final configuration should look like this: 
 
@@ -74,8 +74,11 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 </details> 
 
 ## View bam file using JBrowse
+
 - In the **Tools** panel search bar, type **JBrowse** and select **JBrowse** genome browser
 - Under **Select a reference genome** select **hg38**
+
+Next we'll add two Track groups, each with an annotation track
 - Under **Track Group** click **Insert Track Group**
 - Under **Track Category** type “bam files”
 - Click **Insert Annotation Track**
@@ -84,6 +87,8 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - Under **Track Category** type “genes”
 - Click **Insert Annotation Track**
 - Select track type **GFF/GFF3/BED Features** and under **GFF/GFF3/BED Track Data** select **hg38_genes.bed**.
+
+Finally, run the job:
 - Scroll down and click **Execute**.
 - Once the job is complete (green) click the eye icon to view the data. It will first say “Loading” and then an error box will appear “Error reading from name store”. Click **OK** as this is a known galaxy [bug](https://github.com/galaxyproject/tools-iuc/issues/1277)
 - In the **Available Tracks** panel select the HIV and Mock samples from 12 hr, as well as the bed file.
