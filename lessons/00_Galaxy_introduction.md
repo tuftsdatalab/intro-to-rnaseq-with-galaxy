@@ -23,7 +23,7 @@ The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and 
 
 <img src="../img/ui1.png" width="700">
 
-### 1. Histories
+### Histories
 
 You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below.
 
@@ -34,13 +34,16 @@ Here you can view all your histories, switch to another history, and drag and dr
 
 <img src="../img/histories.png" width="700">
 
-### 2. Tools
+
+### Uploading Data
 
 Galaxy has a few ways to upload data. The most common ways are to upload data from local storage or from the Cluster.
 
 <img src="../img/upload.png" width="700">
 <img src="../img/upload2.png" width="700">
 
+
+### Uploading Data
 
 When it comes time to use a tool, either search or click the category the tool you need would fall under.
 
