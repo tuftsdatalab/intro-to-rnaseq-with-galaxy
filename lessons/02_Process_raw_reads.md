@@ -1,4 +1,19 @@
-## Perform Quality Control on Raw Reads
+# Perform Quality Control on Raw Reads
+
+## Introduction to FastQC
+
+FastQC provides several modules:
+- Sequence Quality
+- GC content
+- Per base sequence content
+- Adapters in Sequence
+
+### Sequence Quality
+
+- Sequence Quality Histogram
+
+<img src="../img/fastqc_slide_1.png" width="700">
+
 
 ### Run FastQC
 
