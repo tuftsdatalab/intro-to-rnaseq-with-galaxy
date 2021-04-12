@@ -1,14 +1,15 @@
 # Introduction to Galaxy
 
 Galaxy is a web-based platform for running data analysis and integration, geared towards bioinformatics.
-- Open-source
+- Open-source, public servers
 - Developed at Penn State, Johns Hopkins, OHSU and Cleveland Clinic with many more outside contributions
 - Large and extremely responsive community 
 
 
 ## Galaxy on the Tufts University High Performance Compute (HPC) Cluster
 
-Our Galaxy server runs on the HPC cluster, using compute nodes and Slurm scheduler to run user jobs.
+Our Galaxy server runs on the HPC cluster, storing data on HPC drives and using compute nodes and Slurm scheduler to run user jobs.
+In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers.
 
 
 <img src="../img/galaxy_hpc.png" width="700">
@@ -16,9 +17,7 @@ Our Galaxy server runs on the HPC cluster, using compute nodes and Slurm schedul
 
 ## Galaxy UI
 
-We will spend some time getting familiar with the Galaxy interface,layout, and key functions that can be performed using Galaxy. 
-We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
-
+We'll spend some time getting familiar with the Galaxy interface, layout, and key functions that can be performed using Galaxy. 
 The Galaxy User Interface has a top menu bar and three panels: Tools, Main, and History.
 
 <img src="../img/ui1.png" width="700">
