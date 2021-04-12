@@ -8,11 +8,9 @@ FastQC provides several modules:
 - Per base sequence content
 - Adapters in Sequence
 
-### Sequence Quality
+### Sequence Quality Histogram
 
-- Sequence Quality Histogram
-
-<img src="../img/fastqc_slide_1.png" width="700">
+<img src="../img/fastqc_slide_1.png" width="900">
 
 
 ### Run FastQC
