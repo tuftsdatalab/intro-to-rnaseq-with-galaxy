@@ -23,6 +23,11 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 <img src="../img/ui1.png" width="700">
 
+- You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page. To get back to the home page click the logo next to **Galaxy Tufts** on the top left of the page or the **Analyze Data** tab on the top of the page. 
+
+<img src="../img/bottomarrows.png" width="700">
+
+
 ### Histories
 
 - Histories are where a dataset and a set of analysis are stored
@@ -54,16 +59,9 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 <img src="../img/tools.png" width="700">
 
-
 - Click the name of the tool you would like to use and the tool menu will appear in the Main panel
 
 <img src="../img/featurecounts.png" width="700">
-
-### 3. Page logistics
-
-You can expand and shrink any of the panels by clicking the small arrows and dragging the three small lines in the bottom left and right corners of the page. To get back to the home page click the logo next to **Galaxy Tufts** on the top left of the page or the **Analyze Data** tab on the top of the page. 
-
-<img src="../img/bottomarrows.png" width="700">
 
 ## Key Galaxy actions to be familiar with 
 
