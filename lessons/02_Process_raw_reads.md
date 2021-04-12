@@ -23,7 +23,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 
 - Click to expand the second list **FastQC on collection 12: Webpage** and click on the <img src="../img/eye.png" width="15"> next to the first file for sample **HIV_12hr_rep1**. The first table gives **Basic Statistics** of the sample. The Main panel will show metrics and plots. You may have to adjust the size of the panel in order to view.
 
-<img src="../img/fastqc_result_1.png" width="200">
+<img src="../img/fastqc_result_1.png" width="900">
 
 
 <details>
