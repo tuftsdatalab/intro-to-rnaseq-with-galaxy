@@ -6,17 +6,24 @@
 - We use a tool called STAR (Spliced Transcripts Alignment to a Reference) that has a exon-aware mapping algorithm.
 
 <img src="../img/spliced_alignment.png" width="300">
-
-[Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)
+[Image Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)
 
 
 ## SAM format
 STAR produces a file in Sequence Alignment Map (SAM) format
 
 <img src="../img/sam_format.jpeg" width="800">
+[Image Source](www.samformat.info)
 
 
-[Source](www.samformat.info)
+## Genome Annotation Standards
+- STAR can use an annotation file gives the location and structure of genes in order to improve alignment in known splice junctions 
+- Annotation is dynamic and there are at least three major sources of annotation 
+- The intersection among RefGene, UCSC, and Ensembl annotations shows high overlap. RefGene has the fewest unique genes, while more than 50% of genes in Ensembl are unique 
+- Be consistent with your choice of annotation source! 
+
+<img src="../img/annotation_source.jpeg" width="500">
+[Image Source](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1308-8)
 
 
 ## Align the reads to the human genome using STAR aligner
