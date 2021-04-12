@@ -71,6 +71,9 @@ A quality score is a prediction of the probability of an error in base calling:
 
 <img src="../img/base_qual_1.png" width="750">
 
+Going back to our read, we can see that the first base of the quality score is "C" –> "Q" =  34 -> Probability < 1/1000 of an error.
+
+
 
 <details>
 <summary> <b>Question 1: The 4th line in each sequencing read is the quality score. Different sequencing technologies use different quality score encodings to represent base quality. The table below shows a line of different symbols that can be used in quality scores encodings (black line). The lines of different colors show the range of symbols used in a specific quality encoding. Based on the symbols you see in the quality score line from the first fastq read in our dataset, which Illumina quality score encoding appears to be used in our dataset: Illumina 1.3, Illumina 1.5 or Illumina 1.8?</b> </summary>
