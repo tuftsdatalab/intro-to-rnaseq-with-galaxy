@@ -78,17 +78,21 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 4. Press **Enter** on your keyboard to save it
 
 ### 2. Upload a file
-1. At the top of the **Tools** panel (on the left), click the Upload icon <img src="../img/upload_icon.png" width="50">
-
-This brings up a box:
+1. At the top of the **Tools** panel (on the left), click the Upload icon <img src="../img/upload_icon.png" width="50">. This brings up a box:
 
 <img src="../img/upload-box.png" width="500">
 
-2. Click **Paste/Fetch data**. Files can also be uploaded from your local machine or through the Tufts Cluster using the FTP option.
+2. Click **Paste/Fetch data** (we'll be uploading from a URL)
 3. Paste in the address of a file: https://zenodo.org/record/4666785/files/HIV_12hr_rep1_pass_subsample.fastq.gz.fastqsanger?download=1
 4. Click **Start**
 5. Click **Close**
-6. Your uploaded file is now in your current history. When the file has uploaded to Galaxy, it will turn green.
+6. Your uploaded file job will appear in your current history.
+7. Colors indicate the job status (more info [here](https://galaxyproject.org/support/how-jobs-execute/)):
+	- Grey: pending
+	- Orange: running
+	- Blue: paused
+ 	- Green: completed sucessfully
+	- Red: failed
 
 ### 3. Viewing your data
 1. Click on the eye icon next to the dataset name, to look at the file content
