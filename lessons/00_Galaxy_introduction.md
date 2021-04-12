@@ -10,6 +10,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 - Our Galaxy server runs on the HPC cluster, storing data on HPC drives and using compute nodes and Slurm scheduler to run user jobs
 - In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers
+- We also have the ability to install and configure open source and custom tools
 - More information on getting access to Tufts Galaxy can be found on the [Research Technology website](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy)
 
 
@@ -64,66 +65,4 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 <img src="../img/featurecounts.png" width="700">
 
-## Key Galaxy Actions
 
-- Some of the training material in this section was borrowed from [this Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial) webpage.
-
-### 1. Naming your current history
-1. Go to the **History** panel (on the right)
-2. Click on the history name (which by default is “Unnamed history”)
-
-<img src="../img/rename_history.png" width="200">
-
-3. Type in a new name, for example, “My-Analysis”
-4. Press **Enter** on your keyboard to save it
-
-### 2. Upload a file
-1. At the top of the **Tools** panel (on the left), click the Upload icon <img src="../img/upload_icon.png" width="50">. This brings up a box:
-
-<img src="../img/upload-box.png" width="500">
-
-2. Click **Paste/Fetch data** (we'll be uploading from a URL)
-3. Paste in the address of a file: https://zenodo.org/record/4666785/files/HIV_12hr_rep1_pass_subsample.fastq.gz.fastqsanger?download=1
-4. Click **Start**
-5. Click **Close**
-6. Your uploaded file job will appear in your current history.
-7. Colors indicate the job status (more info [here](https://galaxyproject.org/support/how-jobs-execute/)):
-	- Grey: pending
-	- Orange: running
-	- Blue: paused
- 	- Green: completed sucessfully
-	- Red: failed
-
-### 3. Viewing your data
-1. Click on the eye icon next to the dataset name, to look at the file content
-
-<img src="../img/eye-icon.png" width="200">
-
-The contents of the file will be displayed in the central Galaxy panel.
-This file contains DNA sequencing reads from HIV infects CD4+ T cells, in FASTQ format:
-
-<img src="../img/HIV_12hr_rep1_pass_subsample.fastq.gz.png" width="500">
-
-### 4. Use a tool
-1. Type **FastQC** in the tools panel search box (top)
-2. Click on the **Fastqc** tool
-        The tool will be displayed in the central Galaxy panel.
-3. Select the following parameters:
-        - “Short read data from your current history”: the FASTQ dataset that we uploaded
-        - No change in the other parameters
-4. Click **Execute**
-
-This tool will run and two new output datasets will appear at the top of your history panel.
-### 5. View results
-We will look at the output dataset called *FastQC on data 1: Webpage*.
-
-1. Click on the eye icon next to the “Webpage” output dataset.
-The information is displayed in the central panel
-
-<img src="../img/fastqc_out.png" width="500">
-
-This tool has summarised information about all of the reads in our FASTQ file.
-
-[Next: Setup](01_Introduction_and_Setup.md)
-
-[Previous: Repository Home](../README.md)
