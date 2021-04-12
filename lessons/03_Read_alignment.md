@@ -97,7 +97,7 @@ Finally, run the job:
 
 - We'll zoom in on one gene **EGR1**. To do this, click on the search bar to the left of the **Go** button and type **chr5: 138465479..138469303** The bam tracks will show the reads that align to the region for each sample. The color will show whether the read aligns to the + or –strand and grey lines show splice regions where a read spans an intron. The gene track at the bottom called **hg38_genes.bed** will show 6 features of EGR1, by clicking on them you will be able to see the different feature types (exon, CDS, start_codon, stop_codon).
 
-<img src="../img/jbrowse_egr1.png" width="600">
+<img src="../img/jbrowse_egr1.png" width="900">
 
 <details>
 <summary><b>Question 7: Which samples appear to show higher expression of EGR1, the Mock or HIV?</b></summary>
