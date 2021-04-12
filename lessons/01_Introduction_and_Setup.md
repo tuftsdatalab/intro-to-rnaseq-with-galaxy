@@ -1,4 +1,4 @@
-# Intro to RNA-Seq using Galaxy on the Tufts cluster
+# Intro to RNA-Seq using Tufts Galaxy 
 
 
 The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of RNAseqencing technologies and our workflow.
@@ -31,7 +31,7 @@ The following steps will walk you through how to run the tools. In each step cer
 
 ## Import the raw data from a shared data library on our server
 - On the top menu bar, click **Shared Data** and select **Data Libraries**
-- Select **chang_2011**
+- Select **chang_2011_2rep**
 - Just under the top menu bar, next to the search bar, click **Export to History** and select **As a Collection**. You'll see a list of fastq files.
 - Click **Continue** to add all files as a list to our current history (No need to click on individual files)
 - Name the collection **chang_2011**
@@ -54,6 +54,22 @@ CAGATGGCCGCAGAGGAAGCCATGAAGGCCCTGCATGGGGAGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGAC
 +
 IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 ```
+
+1. Sequence identifier
+2. Sequence
+3. + (optionally lists the sequence identifier again)
+4. Quality string
+
+
+## Base Quality Scores
+
+The symbols we see in the read quality string are an encoding of the quality score:
+<img src="../img/base_qual_0.png" width="500">
+
+A quality score is a prediction of the probability of an error in base calling: 
+
+<img src="../img/base_qual_1.png" width="500">
+
 
 <details>
 <summary> <b>Question 1: The 4th line in each sequencing read is the quality score. Different sequencing technologies use different quality score encodings to represent base quality. The table below shows a line of different symbols that can be used in quality scores encodings (black line). The lines of different colors show the range of symbols used in a specific quality encoding. Based on the symbols you see in the quality score line from the first fastq read in our dataset, which Illumina quality score encoding appears to be used in our dataset: Illumina 1.3, Illumina 1.5 or Illumina 1.8?</b> </summary>
