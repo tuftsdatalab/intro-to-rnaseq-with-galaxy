@@ -22,7 +22,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format
 - The intersection among RefGene, UCSC, and Ensembl annotations shows high overlap. RefGene has the fewest unique genes, while more than 50% of genes in Ensembl are unique 
 - Be consistent with your choice of annotation source! 
 
-<img src="../img/annotation_source.jpeg" width="500">
+<img src="../img/annotation_source.png" width="500">
 [Image Source](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1308-8)
 
 
