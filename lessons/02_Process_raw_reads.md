@@ -1,6 +1,6 @@
 # Perform Quality Control on Raw Reads
 
-## Introduction to FastQC
+# Introduction to FastQC
 
 FastQC provides several modules (as discussed in intro [Slides](../slides/slides_bioe291.pdf))
 - Sequence Quality
@@ -8,7 +8,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 - Per base sequence content
 - Adapters in Sequence
 
-### Run FastQC
+## Run FastQC
 
 - In the **Tools** panel search bar, type **FastQC**
 - Select **FastQC** under **FASTQ Quality Control**
@@ -32,7 +32,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 </details>
 
 
-### Aggregate QC data with **MultiQC**
+## Aggregate QC data with **MultiQC**
 
 The tool **MultiQC** allows us to view our QC results from all samples side by sides, in order to check for consistency across replicates.
 It can use the **Raw Data** output from FastQC and generate plots for all modules
@@ -51,14 +51,14 @@ Steps to run:
 <br>
 </details>
 
-### Trim adapters and low quality read ends with Trim Galore!
+## Trim adapters and low quality read ends with Trim Galore!
 - In the **Tools** panel search bar, type **Trim Galore!**
 - Select **Trim Galore!** under **FASTQ Quality Control**
 - Under **Reads in FASTQ format** click the <img src="../img/download.png" width="15"> and select **chang_2011**
 - Scroll down and click **Execute**.
 - The result will be a single collection titled **Trim Galore! on collection 12: trimmed reads**. Next, we’ll rerun FastQC in order to see how the trimming performed
 
-### Rerun FastQC and MultiQC
+## Rerun FastQC and MultiQC
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
