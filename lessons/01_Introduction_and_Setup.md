@@ -64,11 +64,12 @@ IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 ## Base Quality Scores
 
 The symbols we see in the read quality string are an encoding of the quality score:
+
 <img src="../img/base_qual_0.png" width="500">
 
 A quality score is a prediction of the probability of an error in base calling: 
 
-<img src="../img/base_qual_1.png" width="500">
+<img src="../img/base_qual_1.png" width="750">
 
 
 <details>
