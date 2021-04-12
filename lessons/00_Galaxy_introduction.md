@@ -64,9 +64,9 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 <img src="../img/featurecounts.png" width="700">
 
-## Key Galaxy actions to be familiar with 
+## Key Galaxy Actions
 
-For these activities we will be using a single file from the larger dataset that we will use later on in the workshop. Some of the training material in this section was borrowed from [this](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial) webpage.
+- Some of the training material in this section was borrowed from [this Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial) webpage.
 
 ### 1. Naming your current history
 1. Go to the **History** panel (on the right)
