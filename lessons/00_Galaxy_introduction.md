@@ -10,7 +10,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 - Our Galaxy server runs on the HPC cluster, storing data on HPC drives and using compute nodes and Slurm scheduler to run user jobs
 - In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers
-- More information on getting access to Tufts Galaxy can be found on our [website](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy)
+- More information on getting access to Tufts Galaxy can be found on the [Research Technology website](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy)
 
 <img src="../img/galaxy_hpc.png" width="700">
 
