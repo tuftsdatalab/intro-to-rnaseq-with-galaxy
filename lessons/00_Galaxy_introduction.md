@@ -1,5 +1,13 @@
 # Introduction to Galaxy
 
+Galaxy is a web-based platform for running data analysis and integration, geared towards bioinformatics.
+- Open-source
+- Developed at Penn State, Johns Hopkins, OHSU and Cleveland Clinic with many more outside contributions
+- Large and extremely responsive community 
+
+<img src="../img/galaxy_hpc.png" width="700">
+
+
 We will spend some time getting familiar with the Galaxy interface,layout, and key functions that can be performed using Galaxy. We will be using a small subset of the data we will be using for the RNA-Seq workflow to better understand how Galaxy works with an individual dataset.
 
 ## Galaxy UI
