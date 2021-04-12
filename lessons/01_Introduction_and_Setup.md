@@ -82,6 +82,9 @@ Going back to our read, we can see that the first base of the quality score is "
 
 <img src="../img/base_qual.png" width="800">
 
+[Image Source](https://en.wikipedia.org/wiki/FASTQ_format)
+
+
 [Next: Process Raw Reads](02_Process_raw_reads.md)
 
 [Previous: Introduction to Galaxy](00_Galaxy_introduction.md)
