@@ -55,12 +55,12 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 ### Tools
 
-- On the Tools panel, either search by name or click the category that your tool would fall under
+- On the **Tools** panel, either search by name or click the category that your tool would fall under
 - Our tools for today will mostly be stored under the RNA-seq category
 
 <img src="../img/tools.png" width="700">
 
-- Click the name of the tool you would like to use and the tool menu will appear in the Main panel
+- Click the name of the tool you would like to use and the tool menu will appear in the **Main** panel
 
 <img src="../img/featurecounts.png" width="700">
 
@@ -78,8 +78,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 4. Press **Enter** on your keyboard to save it
 
 ### 2. Upload a file
-1. At the top of the **Tools** panel (on the left), click **galaxy-upload** Upload
-
+1. At the top of the **Tools** panel (on the left), click the <img src="../img/upload_icon.png" width="50">
 <img src="../img/upload-data2.png" width="200">
 
 This brings up a box:
