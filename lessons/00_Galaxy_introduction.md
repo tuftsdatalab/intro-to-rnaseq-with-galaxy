@@ -78,11 +78,9 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 4. Press **Enter** on your keyboard to save it
 
 ### 2. Upload a file
-1. At the top of the **Tools** panel (on the left), click the <img src="../img/upload_icon.png" width="50">
-<img src="../img/upload-data2.png" width="200">
+1. At the top of the **Tools** panel (on the left), click the Upload icon <img src="../img/upload_icon.png" width="50">
 
 This brings up a box:
-
 
 <img src="../img/upload-box.png" width="500">
 
