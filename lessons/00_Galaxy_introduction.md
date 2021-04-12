@@ -9,6 +9,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 ## Galaxy on the Tufts University High Performance Compute (HPC) Cluster
 
 Our Galaxy server runs on the HPC cluster, storing data on HPC drives and using compute nodes and Slurm scheduler to run user jobs.
+
 In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers.
 
 
