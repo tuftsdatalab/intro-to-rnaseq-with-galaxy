@@ -35,7 +35,7 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 ## Aggregate QC data with **MultiQC**
 
 The tool **MultiQC** allows us to view our QC results from all samples side by sides, in order to check for consistency across replicates.
-It can use the **Raw Data** output from FastQC and generate plots for all modules
+It can use the **Raw Data** output from FastQC and generate plots for all modules.
 
 Steps to run:
 - In the **Tools** panel search bar, type **MultiQC**
@@ -45,6 +45,9 @@ Steps to run:
 - Enter the **Report Title** “Raw data QC”
 - Scroll down and click **Execute**.
 - The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view. (If panels show "loading" for more than a few seconds, click the <img src="../img/eye.png" width="15"> a second time to refresh)
+
+<img src="../img/multiqc_result_1.png" width="900">
+
 
 <details>
 <summary><b>Question 3: Using what we learned in lecture, which metrics show one or more failed samples?</b></summary>
