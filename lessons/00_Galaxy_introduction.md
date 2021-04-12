@@ -10,8 +10,7 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 - Our Galaxy server runs on the HPC cluster, storing data on HPC drives and using compute nodes and Slurm scheduler to run user jobs
 - In practice, this means that Tufts users have more resources on Tufts' Galaxy compared to public servers
-
-
+- More information on getting access to Tufts Galaxy can be found on our [website](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy)
 
 <img src="../img/galaxy_hpc.png" width="700">
 
@@ -27,21 +26,23 @@ Galaxy is a web-based platform for running data analysis and integration, geared
 
 - Histories are where a dataset and a set of analysis are stored
 - Similar to a "working directory".
-- You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below.
+- You can have multiple histories under the same account and you can view them all by clicking the **+** as shown below
 
 <img src="../img/viewhistory.png" width="700">
 
 
-Here you can view all your histories, switch to another history, and drag and drop data between histories.
+- Here you can view all your histories, switch to another history, and drag and drop data between histories.
 
 <img src="../img/histories.png" width="700">
 
 
 ### Uploading Data
 
-Galaxy has a few ways to upload data. The most common ways are to upload data from local storage or from the Cluster.
+- Data can be uploaded to Galaxy in a number of ways by clisking the "Upload" icon on the top of the Tools panel.
 
 <img src="../img/upload.png" width="700">
+
+- "Choose local File" will select a file from your local computer, and "Choose FTP File" will select from your user drive on the HPC cluster, which has an extension "/cluster/tufts/galaxy/xfer/username" 
 <img src="../img/upload2.png" width="700">
 
 
