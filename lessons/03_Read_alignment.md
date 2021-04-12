@@ -6,6 +6,7 @@
 - We use a tool called STAR (Spliced Transcripts Alignment to a Reference) that has a exon-aware mapping algorithm.
 
 <img src="../img/spliced_alignment.png" width="300">
+
 [Image Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)
 
 
@@ -13,6 +14,7 @@
 STAR produces a file in Sequence Alignment Map (SAM) format
 
 <img src="../img/sam_format.jpeg" width="800">
+
 [Image Source](www.samformat.info)
 
 
@@ -23,6 +25,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format
 - Be consistent with your choice of annotation source! 
 
 <img src="../img/annotation_source.png" width="500">
+
 [Image Source](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1308-8)
 
 
