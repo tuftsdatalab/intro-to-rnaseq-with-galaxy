@@ -5,7 +5,7 @@
 - When aligning to the genome, our aligner must find a spliced alignment for reads
 - We use a tool called STAR (Spliced Transcripts Alignment to a Reference) that has a exon-aware mapping algorithm.
 
-<img src="../img/spliced_alignment.png" width="800">
+<img src="../img/spliced_alignment.png" width="300">
 
 [Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)
 
