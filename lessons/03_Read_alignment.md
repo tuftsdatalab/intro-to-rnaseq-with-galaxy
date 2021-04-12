@@ -1,3 +1,24 @@
+# Read Alignment
+
+
+- RNAseq data originates from spliced mRNA (no introns)
+- When aligning to the genome, our aligner must find a spliced alignment for reads
+- We use a tool called STAR (Spliced Transcripts Alignment to a Reference) that has a exon-aware mapping algorithm.
+
+<img src="../img/spliced_alignment.png" width="800">
+
+[Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3530905/)
+
+
+## SAM format
+STAR produces a file in Sequence Alignment Map (SAM) format
+
+<img src="../img/sam_format.jpeg" width="800">
+
+
+[Source](www.samformat.info)
+
+
 ## Align the reads to the human genome using STAR aligner
 - In the **Tools** panel search bar, type **STAR**
 - Scroll down and select **RNA STAR** under **RNA-seq**
