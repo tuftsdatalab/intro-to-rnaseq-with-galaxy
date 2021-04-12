@@ -42,9 +42,9 @@ You can expand and shrink any of the panels by clicking the small arrows and dra
 
 <img src="../img/bottomarrows.png" width="700">
 
-## Key Galaxy actions to be familiar with (Anna Syme, 2021 [A short introduction to Galaxy (Galaxy Training Materials)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial))
-
-For these activities we will be using a single file from the larger dataset that we will use later on in the workshop.
+## Key Galaxy actions to be familiar with 
+Anna Syme, 2021 [A short introduction to Galaxy (Galaxy Training Materials)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial))
+For these activities we will be using a single file from the larger dataset that we will use later on in the workshop. Some of the training material in this section was borrowed from (this)[https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html#citing-this-tutorial] webpage.
 
 ### 1. Naming your current history
 1. Go to the **History** panel (on the right)
