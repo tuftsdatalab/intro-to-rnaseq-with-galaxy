@@ -1,6 +1,15 @@
-## Run DESeq2 to test for differential expression between Mock and HIV at 12 hr
+# Testing for Differential Expression using DESeq2
 
-### In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
+Much of this explanation has been adapted from these two sources:
+- [HBC bioinformatics core] (https://hbctraining.github.io/DGE_workshop)
+- [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+
+The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of the individual steps run by DESeq2.
+The following stepsare run all at once in Galaxy.
+
+<img src="../img/deseq2_0.png" width="300">
+
+## In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
 - In the **Tools** panel search bar, type **Apply Rule to Collection**
 - Choose **125:featureCounts on collection 85: Counts**
 - Click **Edit**
@@ -23,7 +32,7 @@
 
 <img src="../img/rename_collection.png" width="300">
 
-### Test for Differential Expression using DESeq2using the datasets we created in step 14.
+## Test for Differential Expression using DESeq2 
 - In the **Tools** panel search bar, type **DESeq2** and select **DESeq2** under **RNA-seq**
 
 DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock. 
@@ -44,7 +53,7 @@ Any resulting upregulated genes, with log2 fold change > 0, can then be interpre
 
 <img src="../img/deseq2_output.png" width="300">
 
-### View and interpret DESeq2 output files
+## View and interpret DESeq2 output files
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
