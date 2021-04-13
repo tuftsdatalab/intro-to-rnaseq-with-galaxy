@@ -1,7 +1,8 @@
 # Gene Quantification
 
 ## Counting reads for each gene
-Our next step is to quantify the spliced reads that aligned to each gene in our GTF file.
+Our next step is to quantify the spliced reads that aligned to each gene in our GTF file
+For two non-overlapping, multiple-exon genes, our alignment may look like this:
 
 <img src="../img/featurecounts_0.png" width="700">
 
@@ -12,7 +13,9 @@ The tool featureCounts is part of the subRead package.
 - In default mode, ambiguous reads will be discarded
 
 
-<img src="../img/featurecounts_1.png" width="700">
+<img src="../img/featurecounts_1.png" width="500">
+
+[Source](http://subread.sourceforge.net/)
 
 The result is a gene count matrix:
 
