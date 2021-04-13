@@ -1,7 +1,7 @@
 # Intro to RNA-Seq using Tufts Galaxy 
 
 
-The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of RNAseqencing technologies and our workflow.
+The introductory [Slides](../slides_workshop_12Apr21.pdf) give an overview of RNAseqencing technologies and our workflow.
 
 ## Dataset
 Our dataset is from the publication:
