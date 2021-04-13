@@ -5,7 +5,7 @@ Much of this explanation has been adapted from these two sources:
 - [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
 The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of the individual steps run by DESeq2.
-The following stepsare run all at once in Galaxy.
+The following DESeq2 steps are run all at once in Galaxy.
 
 <img src="../img/deseq2_0.png" width="300">
 
