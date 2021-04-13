@@ -16,7 +16,7 @@ The tool featureCounts is part of the subRead package.
 
 The result is a gene count matrix:
 
-<img src="../img/featurecounts_2.png" width="700">
+<img src="../img/featurecounts_2.png" width="500">
 
 
 ## Running featureCounts
