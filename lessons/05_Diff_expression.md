@@ -1,15 +1,30 @@
-## Run DESeq2 to test for differential expression between Mock and HIV at 12 hr
+# Testing for Differential Expression using DESeq2
 
-### In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
+Much of this explanation has been adapted from these two sources:
+- [HBC bioinformatics core](https://hbctraining.github.io/DGE_workshop)
+- [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+
+The following DESeq2 steps are run all at once in Galaxy.
+
+<img src="../img/deseq2_0.png" width="500">
+
+[Image Source](https://hbctraining.github.io/DGE_workshop)
+
+The introductory [Slides](../slides_workshop_12Apr21.pdf) gave more detail on these individual steps
+
+## In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
 - In the **Tools** panel search bar, type **Apply Rule to Collection**
 - Choose **125:featureCounts on collection 85: Counts**
+
+First, we filter for the samples of interest:
 - Click **Edit**
-- Click Filter, then **Using a Regular Expression**
+- Click **Filter**, then **Using a Regular Expression**
 - Under **Regular Expression?**, type HIV_12 (Do not put any extra spaces following the expression). This is a regular expression which will match any file that contains the string **HIV_12**
-- Click Apply and the list of files in column A should show three samples:
+- Click Apply and the list of files in column A should show two samples:
 
 <img src="../img/HIV_12.png" width="300">
 
+Galaxy requires that lists have an identifier column
 - Click **Rules**, and then **Add/Modify Column Definitions** 
 - Click **Add** Definition, then **List Identifier(s)**, select **A**, click Apply
 - Click **Save**
@@ -23,7 +38,7 @@
 
 <img src="../img/rename_collection.png" width="300">
 
-### Test for Differential Expression using DESeq2using the datasets we created in step 14.
+## Test for Differential Expression using DESeq2 
 - In the **Tools** panel search bar, type **DESeq2** and select **DESeq2** under **RNA-seq**
 
 DESeq2 will take the count tables that we generated, one per sample, and make a comparison for each gene between two conditions: HIV and Mock. 
@@ -44,11 +59,11 @@ Any resulting upregulated genes, with log2 fold change > 0, can then be interpre
 
 <img src="../img/deseq2_output.png" width="300">
 
-### View and interpret DESeq2 output files
+## View and interpret DESeq2 output files
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
-<summary><b> Question 10: What are the top two most significant genes? Does the direction of change for gene EGR1 agree with our observation in Question 7? </b></summary>
+<summary><b> Question 10: What are the top two most significant genes? Does the direction of change for gene MYC agree with our observation in Question 7? </b></summary>
 <br>
 </details>
 
