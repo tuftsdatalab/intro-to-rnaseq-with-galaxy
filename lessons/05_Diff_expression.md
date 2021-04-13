@@ -15,13 +15,16 @@ The introductory [Slides](../slides/slides_bioe291.pdf) gave more detail on thes
 ## In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
 - In the **Tools** panel search bar, type **Apply Rule to Collection**
 - Choose **125:featureCounts on collection 85: Counts**
+
+First, we filter for the samples of interest:
 - Click **Edit**
-- Click Filter, then **Using a Regular Expression**
+- Click **Filter**, then **Using a Regular Expression**
 - Under **Regular Expression?**, type HIV_12 (Do not put any extra spaces following the expression). This is a regular expression which will match any file that contains the string **HIV_12**
-- Click Apply and the list of files in column A should show three samples:
+- Click Apply and the list of files in column A should show two samples:
 
 <img src="../img/HIV_12.png" width="300">
 
+Galaxy requires that lists have an identifier column
 - Click **Rules**, and then **Add/Modify Column Definitions** 
 - Click **Add** Definition, then **List Identifier(s)**, select **A**, click Apply
 - Click **Save**
@@ -60,7 +63,7 @@ Any resulting upregulated genes, with log2 fold change > 0, can then be interpre
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
-<summary><b> Question 10: What are the top two most significant genes? Does the direction of change for gene EGR1 agree with our observation in Question 7? </b></summary>
+<summary><b> Question 10: What are the top two most significant genes? Does the direction of change for gene MYC agree with our observation in Question 7? </b></summary>
 <br>
 </details>
 
