@@ -1,7 +1,7 @@
 # Testing for Differential Expression using DESeq2
 
 Much of this explanation has been adapted from these two sources:
-- [HBC bioinformatics core] (https://hbctraining.github.io/DGE_workshop)
+- [HBC bioinformatics core](https://hbctraining.github.io/DGE_workshop)
 - [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
 The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of the individual steps run by DESeq2.
