@@ -3,7 +3,7 @@
 ## Counting reads for each gene
 Our next step is to quantify the spliced reads that aligned to each gene in our GTF file.
 
-<img src="../img/featurecounts_count.png" width="200">
+<img src="../img/featurecounts_count.png" width="700">
 
 
 ## Running featureCounts
