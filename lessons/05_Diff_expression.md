@@ -4,12 +4,13 @@ Much of this explanation has been adapted from these two sources:
 - [HBC bioinformatics core](https://hbctraining.github.io/DGE_workshop)
 - [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
-The introductory [Slides](../slides/slides_bioe291.pdf) give an overview of the individual steps run by DESeq2.
 The following DESeq2 steps are run all at once in Galaxy.
 
 <img src="../img/deseq2_0.png" width="500">
 
 [Image Source](https://hbctraining.github.io/DGE_workshop)
+
+The introductory [Slides](../slides/slides_bioe291.pdf) gave more detail on these individual steps
 
 ## In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
 - In the **Tools** panel search bar, type **Apply Rule to Collection**
