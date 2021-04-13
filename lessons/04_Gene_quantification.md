@@ -3,7 +3,20 @@
 ## Counting reads for each gene
 Our next step is to quantify the spliced reads that aligned to each gene in our GTF file.
 
-<img src="../img/featurecounts_count.png" width="700">
+<img src="../img/featurecounts_0.png" width="700">
+
+
+The tool featureCounts is part of the subRead package.
+- The mapped coordinates of each read are compared with the features in the GTF file
+- Reads that overlap with a gene by >=1 bp are counted as belonging to that feature 
+- In default mode, ambiguous reads will be discarded
+
+
+<img src="../img/featurecounts_1.png" width="700">
+
+The result is a gene count matrix:
+
+<img src="../img/featurecounts_2.png" width="700">
 
 
 ## Running featureCounts
