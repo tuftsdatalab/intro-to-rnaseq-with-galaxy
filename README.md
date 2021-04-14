@@ -17,7 +17,7 @@ Bioinformatics for RNAseq has the following workflow steps
 - [VPN](https://access.tufts.edu/vpn) if accessing the HPC from off campus
 
 ## Table of Contents
-- [Introduction Slides](slides/slides_bioe291.pdf)
+- [Introduction Slides](slides/slides_workshop_12Apr21.pdf)
 - [Introduction to Galaxy](lessons/00_Galaxy_introduction.md)
 - [Next: Introduction and Setup](lessons/01_Introduction_and_Setup.md)
 - [Process Raw Reads](lessons/02_Process_raw_reads.md)
@@ -28,4 +28,8 @@ Bioinformatics for RNAseq has the following workflow steps
 
 ## Acknowledgement
 Thanks to bioinformatics intern [Meg Farely](https://www.linkedin.com/in/meg-farley-93b311160/) for help developing this workshop.
+Much of this explanation has been adapted from these two sources:
+- [Harvard Chan Bioinformatics Core RNAseq training](https://hbctraining.github.io/DGE_workshop)
+- [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+
 
