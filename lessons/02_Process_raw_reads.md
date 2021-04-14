@@ -2,7 +2,7 @@
 
 # Introduction to FastQC
 
-FastQC provides several modules (as discussed in intro [Slides](../slides_workshop_12Apr21.pdf))
+FastQC provides several modules (as discussed in intro [Slides](../slides/slides_workshop_12Apr21.pdf))
 - Sequence Quality
 - GC content
 - Per base sequence content

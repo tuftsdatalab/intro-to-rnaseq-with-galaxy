@@ -10,7 +10,7 @@ The following DESeq2 steps are run all at once in Galaxy.
 
 [Image Source](https://hbctraining.github.io/DGE_workshop)
 
-The introductory [Slides](../slides_workshop_12Apr21.pdf) gave more detail on these individual steps
+The introductory [Slides](../slides/slides_workshop_12Apr21.pdf) gave more detail on these individual steps
 
 ## In preparation to run DESeq2, create separate collections for the counts files for Mock 12 hr and HIV 12 hr.
 - In the **Tools** panel search bar, type **Apply Rule to Collection**
