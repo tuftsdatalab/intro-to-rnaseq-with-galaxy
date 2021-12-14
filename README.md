@@ -19,8 +19,7 @@ Bioinformatics for RNAseq has the following workflow steps
 ## Table of Contents
 - [Introduction Slides](slides/slides_workshop_12Apr21.pdf)
 - [Introduction to Galaxy](lessons/00_Galaxy_introduction.md)
-- [Next: Introduction and Setup](lessons/01_Introduction_and_Setup.md)
-- [Process Raw Reads](lessons/02_Process_raw_reads.md)
+- [Next: Process Raw Reads](lessons/01_Introduction_and_Setup_noqual.md)
 - [Read Alignment](lessons/03_Read_alignment.md)
 - [Gene quantification](lessons/04_Gene_quantification.md)
 - [Differential Expression](lessons/05_Diff_expression.md)
