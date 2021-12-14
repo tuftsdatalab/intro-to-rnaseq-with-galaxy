@@ -37,7 +37,7 @@ You’ll see the collection (or list) **chang_2011** in your history.
 
 
 ## View Fastq files
-- Click on the list **chang_2011** to expand, you’ll see 11 sequencing files with extension **fastq.qz**
+- Click on the list **chang_2011** to expand, you’ll see 5 sequencing files with extension **fastq.qz**. These are two 12 hr HIV replicates, two 12 hr Mock replicates, and one 24 hour HIV replicate.
 - Click on the **eye icon** <img src="../img/eye.png" width="15"> on the first sequence file **HIV_12hr_rep1** and look at the fastq reads
 
 The first 4 lines constitute the first sequencing read:
@@ -103,9 +103,7 @@ The first panel gives summary statistics:
 
 <img src="../img/multiqc_general_stat.png" width="500">
 
-The second figure is a bar graph showing sequence counts of unique and duplicate reads.
-
-The remaining figures show the FastQC metrics, this time displaying all samples. There is a rectangle at the top that summarizes the pass/fail status of samples. 
+The second figure is a bar graph showing "Sequence Counts" of unique and duplicate reads for each sample. The remaining figures show each FastQC metric, displaying all samples on a single graph. There is a rectangle at the top that summarizes the pass/fail status of samples. 
 
 <img src="../img/pass_fail_summary.png" width="500">
 
@@ -126,7 +124,7 @@ The remaining figures show the FastQC metrics, this time displaying all samples.
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
-<summary><b>Question 4: Were any reads completely removed from the samples? Note: The MultiQC "General Statistics" table may show a rounded value, so be sure to double check with the individual sample FastQC tables. </b></summary>
+<summary><b>Question 4: Were any reads completely removed from the samples? Note: The MultiQC "General Statistics" tables shows a rounded value, so use the "Sequence Counts" graph. </b></summary>
 <br>
 </details>
 
