@@ -17,7 +17,7 @@ Bioinformatics for RNAseq has the following workflow steps
 - [VPN](https://access.tufts.edu/vpn) if accessing the HPC from off campus
 
 ## Table of Contents
-- [Introduction Slides](slides/slides_workshop_12Apr21.pdf)
+- [Introduction Slides](slides/slides_workshop_bioe291_14Dec21.pdf)
 - [Introduction to Galaxy](lessons/00_Galaxy_introduction.md)
 - [Next: Process Raw Reads](lessons/01_Introduction_and_Setup_noqual.md)
 - [Read Alignment](lessons/03_Read_alignment.md)

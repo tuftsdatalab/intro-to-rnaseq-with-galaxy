@@ -34,7 +34,7 @@ The result is a gene count matrix:
 - Run **MultiQC** on the **Summary** collection (similar to previous steps, except selecting the appropriate tool (featureCounts) and input folder (featureCounts Summary)).
 
 <details>
-<summary><b> Question 9: The main output of the featureCounts MultiQC plots is the second plot, which shows whether reads were assigned to genes (features) or not. What is the main reason for reads not being assigned to features?</b></summary>
+<summary><b> Question 8: Locate the "featureCounts:Assignment" plot, which shows whether reads were assigned to genes (features) or whether they failed to be assigned. What is the main reason for reads not being "Assigned"?</b></summary>
 <br>
 </details>
 

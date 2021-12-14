@@ -1,6 +1,6 @@
 # Import Raw Reads from Shared Library
 
-The introductory [Slides](../slides/slides_workshop_12Apr21.pdf) give an overview of RNAseqencing technologies and our workflow.
+The introductory [Slides](../slides/slides_workshop_bioe291_14Dec21.pdf) give an overview of RNAseqencing technologies and our workflow.
 
 ## Dataset
 Our dataset is from the publication:
@@ -56,7 +56,7 @@ IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 
 # Perform Quality Control on Raw Reads
 
-FastQC provides several modules (as discussed in intro [Slides](../slides/slides_workshop_12Apr21.pdf))
+FastQC provides several modules (as discussed in intro [Slides](../slides/slides_workshop_bioe291_14Dec21.pdf))
 - Sequence Quality
 - GC content
 - Per base sequence content
@@ -124,12 +124,12 @@ The second figure is a bar graph showing "Sequence Counts" of unique and duplica
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
-<summary><b>Question 4: Were any reads completely removed from the samples? Note:The MultiQC "General Statistics" tables shows a rounded value, so use the "Sequence Counts" graph. </b></summary>
+<summary><b>Question 3: Were any reads completely removed from the samples? Note:The MultiQC "General Statistics" tables shows a rounded value, so use the "Sequence Counts" graph. </b></summary>
 <br>
 </details>
 
 <details>
-<summary><b>Question 5: Is the adapter problem solved? What about the GC content? Note: HIV replication is ramping up rapidly in these cells in the first 24 hours.</b></summary>
+<summary><b>Question 4: Is the adapter problem solved? What about the GC content? Note: HIV replication is ramping up rapidly in these cells in the first 24 hours.</b></summary>
 <br>
 </details>
 

@@ -69,7 +69,7 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - After the job finished, click the <img src="../img/download.png" width="15"> to view the webpage.
 
 <details>
-<summary><b>Question 6: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, but are expected to be above 75%. Are the percent alignments reasonable for RNAseq? You can optionally check to see which percentage of the reads align to the HIV genome by re-running STAR using the HIV genome with built-in gene model hiv_nc001802 </b></summary>
+<summary><b>Question 5: In RNAseq, the percentages of uniquely aligned reads are typically lower than for DNAseq, due to the presence of unremoved ribosomal RNA. These are are present in multiple copies throughout the genome and cause reads not to be mapped confidently. RNAseq is expected to be above 75% for an uncontaminated human sample. Is the "% Aligned" above 75% for these samples? You can optionally check to see which percentage of the reads align to the HIV genome by re-running STAR using the HIV genome with built-in gene model hiv_nc001802 </b></summary>
 <br>
 </details> 
 
@@ -79,23 +79,20 @@ STAR produces a file in Sequence Alignment Map (SAM) format or the compressed ve
 - Under **Select a reference genome** select **hg38**
 
 Next we'll add two Track groups, each with an annotation track
-- Under **Track Group** click **Insert Track Group**
-- Under **Track Category** type “bam files”
-- Click **Insert Annotation Track**
+- Under **Track Group** click **+ Insert Track Group**
+- Click **+ Insert Annotation Track**
 - Select track type **BAM Pileups** and under **BAM Track Data** click the folder icon and select the list **RNA STAR on collection: mapped.bam**
-- Again, click **Insert Track Group**
-- Under **Track Category** type “genes”
-- Click **Insert Annotation Track**
+- Scroll down and click **Insert Annotation Track**
 - Select track type **GFF/GFF3/BED Features** and under **GFF/GFF3/BED Track Data** select **hg38_genes.bed**.
 
 Finally, run the job:
 - Scroll down and click **Execute**.
-- Once the job is complete (green) click the eye icon to view the data. It will first say “Loading” and then an error box will appear “Error reading from name store”. Click **OK** as this is a known galaxy [bug](https://github.com/galaxyproject/tools-iuc/issues/1277)
+- Once the job is complete (green) click the eye icon to view the data. 
 - In the **Available Tracks** panel select the HIV and Mock samples from 12 hr, as well as the bed file.
 
 <img src="../img/jbrowse_available_tracks.png" width="200">
 
-- We'll zoom in on one gene **MYC**. To do this, click on the search bar to the left of the **Go** button and type `chr8:127735434-127742951` 
+- We'll zoom in on one gene **MYC**. To do this, click on the search bar to the left of the **Go** button and type `chr8:127735434-127742951`. Note that you can't search by gene name in this tool.
 - The bam tracks will show the reads that align to the region for each sample. 
 - The color will show whether the read aligns to the + or –strand and grey lines show splice regions where a read spans an intron. 
 The gene track at the bottom called **hg38_genes.bed** will show 6 features of EGR1, by clicking on them you will be able to see the different feature types (exon, CDS, start_codon, stop_codon).
@@ -103,16 +100,16 @@ The gene track at the bottom called **hg38_genes.bed** will show 6 features of E
 <img src="../img/jbrowse_myc.png" width="900">
 
 <details>
-<summary><b>Question 7: Which samples appear to show higher expression of MYC, the Mock or HIV?</b></summary>
+<summary><b>Question 6: Which samples appear to show higher expression of MYC, the Mock or HIV?</b></summary>
 <br>
 </details>
 
 <details>
-<summary><b> Question 8: How many exons does this gene have?</b></summary>
+<summary><b> Question 7: How many exons does this gene have?</b></summary>
 <br>
 </details>
 
 
 [Next: Gene Quantification](04_Gene_quantification.md)
 
-[Previous: Process Raw Reads](02_Process_raw_reads.md)
+[Previous: Process Raw Reads](02_Process_raw_reads_noqual.md)
