@@ -97,10 +97,14 @@ Steps to run:
 - Under **FastQC output** click the <img src="../img/download.png" width="15"> and select the collection **14: FastQC on collection 12: Raw Data** (note that the numbers 14 and 12 are tracking the dataset number in your history and might vary if you have not followed the exact sequence in this document)
 - Enter the **Report Title** “Raw data QC”
 - Scroll down and click **Execute**.
-- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view. (If panels show "loading" for more than a few seconds, click the <img src="../img/eye.png" width="15"> a second time to refresh)
+- The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view.
 
+The first panel gives summary statistics:
+<img src="../img/multiqc_general_stat.png" width="700">
 
-<img src="../img/multiqc_result_1.png" width="900">
+Followed by a bar graph showing sequence counts, followed by a panel for each FastQC metric. There is a rectangle at the top that summarizes the pass/fail status of each sample. 
+
+<img src="../img/pass_fail_summary.png" width="700">
 
 
 <details>
