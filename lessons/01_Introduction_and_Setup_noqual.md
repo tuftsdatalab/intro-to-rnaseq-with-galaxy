@@ -1,5 +1,4 @@
-# Intro to RNA-Seq using Tufts Galaxy 
-
+# Import Raw Reads from Shared Library
 
 The introductory [Slides](../slides/slides_workshop_12Apr21.pdf) give an overview of RNAseqencing technologies and our workflow.
 
@@ -12,9 +11,7 @@ The experiment aims to compare the mRNA produced by Mock and HIV infected CD4+ T
 
 <img src="../img/hiv-mock.png" width=350> 
 
-The raw reads from the study have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
-
-The following steps will walk you through how to run the tools. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
+The following steps will walk you through how to run tools needed for our workflow. In each step certain parameters are set. If a parameter option appears on the screen but this tutorial doesn't mention how to set it, leave it at the default. There are questions throughout, which serve to guide you through the results and check your understanding.
 
 
 ## Create a new history
@@ -24,6 +21,8 @@ The following steps will walk you through how to run the tools. In each step cer
 <img src="../img/new_history.png" width="200">
 
 ## Import the raw data from a shared data library on our server
+We'll import The raw reads from a shared library on our server. They have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
+
 - On the top menu bar, click **Shared Data** and select **Data Libraries**
 - Select **chang_2011_2rep**
 - Just under the top menu bar, next to the search bar, click **Export to History** and select **As a Collection**. You'll see a list of fastq files.
