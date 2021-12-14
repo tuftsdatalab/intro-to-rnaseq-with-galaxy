@@ -10,7 +10,7 @@ Chang et al. **Next-Generation Sequencing Reveals HIV-1-Mediated Suppression of 
 
 The experiment aims to compare the mRNA produced by Mock and HIV infected CD4+ T cells, both 12 hr and 24 hr after infection.
 
-<img src="../img/hiv-mock.png" width=250> 
+<img src="../img/hiv-mock.png" width=350> 
 
 The raw reads from the study have been downsampled to 1 million reads per file in order to speed up computation. The full dataset is available from NCBI under accession [SRP013224](https://www.ncbi.nlm.nih.gov/sra?term=SRP013224).
 
