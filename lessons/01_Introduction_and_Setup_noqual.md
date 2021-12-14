@@ -124,15 +124,15 @@ The second figure is a bar graph showing "Sequence Counts" of unique and duplica
 - Follow the steps for **Run FastQC** and **Aggregate QC data with MultiQC** above, except select the trimmed reads generated in the previous step as the input to **FastQC**
 
 <details>
-<summary><b>Question 4: Were any reads completely removed from the samples? Note: The MultiQC "General Statistics" tables shows a rounded value, so use the "Sequence Counts" graph. </b></summary>
+<summary><b>Question 4: Were any reads completely removed from the samples? Note:The MultiQC "General Statistics" tables shows a rounded value, so use the "Sequence Counts" graph. </b></summary>
 <br>
 </details>
 
 <details>
-<summary><b>Question 5: Is the adapter problem solved? What about the GC content? Note that HIV replication is ramping up rapidly in these cells in the first 24 hours.</b></summary>
+<summary><b>Question 5: Is the adapter problem solved? What about the GC content? Note: HIV replication is ramping up rapidly in these cells in the first 24 hours.</b></summary>
 <br>
 </details>
 
-
 [Next: Read Alignment](03_Read_alignment.md)
+
 [Previous: Introduction to Galaxy](00_Galaxy_introduction.md)
