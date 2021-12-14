@@ -100,11 +100,11 @@ Steps to run:
 - The result will again be two collections (you may have to click "back to rnaseq day 1" on the top of the History panel). Select the collection titled **MultiQC on data 36, data 34, and others: Webpage** and click the <img src="../img/eye.png" width="15"> to view.
 
 The first panel gives summary statistics:
-<img src="../img/multiqc_general_stat.png" width="700">
+<img src="../img/multiqc_general_stat.png" width="500">
 
 Followed by a bar graph showing sequence counts, followed by a panel for each FastQC metric. There is a rectangle at the top that summarizes the pass/fail status of each sample. 
 
-<img src="../img/pass_fail_summary.png" width="700">
+<img src="../img/pass_fail_summary.png" width="500">
 
 
 <details>
