@@ -13,7 +13,7 @@ The tool featureCounts is part of the subRead package.
 - In default mode, ambiguous reads will be discarded
 
 
-<img src="../img/featurecounts_1.png" width="500">
+<img src="../img/featurecounts_1.png" width="300">
 
 [Source](http://subread.sourceforge.net/)
 

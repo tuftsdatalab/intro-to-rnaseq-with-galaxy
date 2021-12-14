@@ -6,7 +6,7 @@ Much of this explanation has been adapted from these two sources:
 
 The following DESeq2 steps are run all at once in Galaxy.
 
-<img src="../img/deseq2_0.png" width="500">
+<img src="../img/deseq2_0.png" width="300">
 
 [Image Source](https://hbctraining.github.io/DGE_workshop)
 
