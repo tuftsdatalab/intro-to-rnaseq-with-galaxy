@@ -53,9 +53,8 @@ IIIIGIIHFIIIIBIIDII>IIDHIIHDIIIGIFIIEIGIBDDEFIG<EIEGEEG;<DB@A8CC7<><C@BBDDB
 3. + (optionally lists the sequence identifier again)
 4. Quality string
 
-# Perform Quality Control on Raw Reads
 
-# Introduction to FastQC
+# Perform Quality Control on Raw Reads
 
 FastQC provides several modules (as discussed in intro [Slides](../slides/slides_workshop_12Apr21.pdf))
 - Sequence Quality
@@ -82,15 +81,14 @@ FastQC provides several modules (as discussed in intro [Slides](../slides/slides
 
 
 <details>
-<summary><b>Question 2: Were you right about your guess of quality encoding? </b></summary>
+<summary><b>Question 1: How many sequences are in the sample **HIV_12hr_rep1**? What is their average length? </b></summary>
 <br>
 </details>
 
 
 ## Aggregate QC data with **MultiQC**
 
-The tool **MultiQC** allows us to view our QC results from all samples side by sides, in order to check for consistency across replicates.
-It can use the **Raw Data** output from FastQC and generate plots for all modules.
+The tool **MultiQC** allows us to view our QC results from all samples side by sides, in order to check for consistency across replicates. It can use the **Raw Data** output from FastQC and generate plots for all modules.
 
 Steps to run:
 - In the **Tools** panel search bar, type **MultiQC**
@@ -106,7 +104,7 @@ Steps to run:
 
 
 <details>
-<summary><b>Question 3: Using what we learned in lecture, which metrics show one or more failed samples?</b></summary>
+<summary><b>Question 2: Which metrics show one or more failed samples?</b></summary>
 <br>
 </details>
 
