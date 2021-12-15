@@ -56,7 +56,7 @@ DESeq2 will take the count tables that we generated, one per sample, and make a 
 - Results file: View the results table by clicking on the history item **DESeq2 result file on data ... and others** and clicking on the eye icon.
 
 <details>
-<summary><b> Question 9: What are the top two most significant genes? Does the direction of change for gene MYC agree with our observation in Question 7? </b></summary>
+<summary><b> Question 9: What are the top two most significant genes? Does the direction of change for gene MYC agree with our observation in Question 6? </b></summary>
 <br>
 </details>
 
