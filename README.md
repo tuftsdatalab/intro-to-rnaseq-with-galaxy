@@ -27,8 +27,9 @@ Bioinformatics for RNAseq has the following workflow steps
 
 ## Acknowledgement
 Thanks to bioinformatics intern [Meg Farely](https://www.linkedin.com/in/meg-farley-93b311160/) for help developing this workshop.
-Much of this explanation has been adapted from these two sources:
+Much of this explanation has been adapted from these sources:
 - [Harvard Chan Bioinformatics Core RNAseq training](https://hbctraining.github.io/DGE_workshop)
 - [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+- [Introduction To RNA-seq with Galaxy](https://rbatorsky.github.io/intro-to-rnaseq-with-galaxy/)
 
 
