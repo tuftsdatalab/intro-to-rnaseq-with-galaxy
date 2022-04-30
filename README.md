@@ -34,4 +34,4 @@ Much of this explanation has been adapted from these sources:
 - [DESeq2 Vignette](http://www.bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 - [Introduction To RNA-seq with Galaxy](https://rbatorsky.github.io/intro-to-rnaseq-with-galaxy/)
 
-
+#### [Back To All Workshops](https://tuftsdatalab.github.io/Research_Technology_Bioinformatics/)
