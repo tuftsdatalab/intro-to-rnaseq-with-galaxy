@@ -1,6 +1,6 @@
 [![View on Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tuftsdatalab/intro-to-rnaseq-with-galaxy)
 [![View on Webpage](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://tuftsdatalab.github.io/intro-to-rnaseq-with-galaxy/)
-[![Galaxy Tufts](img/galaxybadge.png)](galaxy.cluster.tufts.edu)
+[![Galaxy Tufts](img/galaxybadge.png)](https://galaxy.cluster.tufts.edu)
 
 ### Introduction to RNA-seq with Galaxy
 
