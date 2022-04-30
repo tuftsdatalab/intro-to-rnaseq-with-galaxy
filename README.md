@@ -1,4 +1,4 @@
-### A Tufts University Research Technology Workshop
+### Introduction to RNA-seq with Galaxy
 
 ## Description
 This course is an introduction to RNA sequencing using Galaxy on [Tufts University's Galaxy server](https://galaxy.cluster.tufts.edu). 
