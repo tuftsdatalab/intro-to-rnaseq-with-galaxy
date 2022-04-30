@@ -41,3 +41,5 @@ The result is a gene count matrix:
 [Next: Differential Expression](05_Diff_expression.md)
 
 [Previous: Read Alignment](03_Read_alignment.md)
+
+[Main Page](../README.md)
