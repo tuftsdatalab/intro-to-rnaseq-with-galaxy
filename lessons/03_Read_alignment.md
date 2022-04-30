@@ -112,4 +112,4 @@ The gene track at the bottom called **hg38_genes.bed** will show 6 features of E
 
 [Next: Gene Quantification](04_Gene_quantification.md)
 
-[Previous: Process Raw Reads](02_Process_raw_reads_noqual.md)
+[Previous: Process Raw Reads](01_Introduction_and_Setup_noqual.md)
