@@ -136,3 +136,5 @@ The second figure is a bar graph showing "Sequence Counts" of unique and duplica
 [Next: Read Alignment](03_Read_alignment.md)
 
 [Previous: Introduction to Galaxy](00_Galaxy_introduction.md)
+
+[Main Page](../README.md)
