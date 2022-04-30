@@ -2,8 +2,6 @@
 [![View on Webpage](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://tuftsdatalab.github.io/intro-to-rnaseq-with-galaxy/)
 [![Galaxy Tufts](img/galaxybadge.png)](https://galaxy.cluster.tufts.edu)
 
-### Introduction to RNA-seq with Galaxy
-
 ## Description
 This course is an introduction to RNA sequencing using Galaxy on [Tufts University's Galaxy server](https://galaxy.cluster.tufts.edu). 
 For support with this workshop or Galaxy, see our [Galaxy documentation](https://it.tufts.edu/research-technology/bioinformatics/tufts-galaxy) or email TTS Research Technology [tts-research@tufts.edu](mailto:ltts-research@tufts.edu)
